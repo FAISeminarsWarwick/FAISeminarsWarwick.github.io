@@ -4,14 +4,26 @@ title: about
 permalink: /
 subtitle: . Address. Contacts. Moto. Etc.
 
-profile:
-  align: center
-  image: logo_AI_Seminar.png
-  image_circular: false # crops the image to make it circular
-  
 
-news: false # includes a list of news items
-social: true # includes social icons at the bottom of the page
+
+news: false
+social: true
 ---
 
-Seminars on Foundations of AI - University of Warwick
+{% assign banner_image_path = 'assets/img/logo_AI_Seminar.png' %}
+<div class="banner">
+  <img src="{{ banner_image_path }}" alt="Banner" class="img-fluid">
+</div>
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="desc">{{ page.subtitle }}</p>
+  </header>
+
+  <article>
+    <p>Seminars on Foundations of AI - University of Warwick</p>
+    
+    <!-- Rest of the content remains unchanged -->
+  </article>
+</div>
