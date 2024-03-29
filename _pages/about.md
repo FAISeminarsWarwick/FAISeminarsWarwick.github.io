@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: about
 permalink: /
 title: 
 description: upcoming talks
