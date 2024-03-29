@@ -13,8 +13,7 @@ speakers:
     image: volcan_cevher.jpg
     content: speaker_1.md
     image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
+    more_info: Volkan Cevher
     
  
 
