@@ -1,9 +1,9 @@
 ---
 layout: upcoming_talks
 permalink: /upcoming_talks/
-title: people
+title: 
 description: upcoming talks
-nav: true
+nav: false
 nav_order: 7
 
 speakers:
