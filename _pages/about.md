@@ -3,6 +3,14 @@ layout: about
 title: about
 permalink: /
 
+
+
+
+news: false
+social: true
+---
+
+
 {% assign banner_image_path = 'assets/img/logo_AI_Seminar.png' %}
 <div class="banner">
   <img src="{{ banner_image_path }}" alt="Banner" class="img-fluid">
@@ -16,10 +24,3 @@ permalink: /
 
  
 </div>
-
-
-news: false
-social: true
----
-
-
