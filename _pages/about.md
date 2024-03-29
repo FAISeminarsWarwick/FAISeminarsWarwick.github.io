@@ -18,11 +18,6 @@ speakers:
       <p>123 your address street</p>
       <p>Your City, State 12345</p>
  
----
-
-
-
-
 
 news: false
 social: true
