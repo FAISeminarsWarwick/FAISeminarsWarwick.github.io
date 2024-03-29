@@ -6,7 +6,7 @@ description: upcoming talks
 nav: true
 nav_order: 7
 
-upcoming_talks:
+speakers:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
