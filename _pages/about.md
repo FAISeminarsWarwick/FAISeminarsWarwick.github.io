@@ -5,6 +5,7 @@ title:
 description: Foundation of AI | Seminars | Warwick
 nav: true
 nav_order: 1
+talk_date: '2024-04-26' 
 
 speakers:
   # if you want to include more than one profile, just replicate the following block
