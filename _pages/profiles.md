@@ -18,7 +18,7 @@ profiles:
       
   - align: left
     image: prof_pic.jpg
-    content: 
+    content: speaker_1.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>555 your office number</p>
