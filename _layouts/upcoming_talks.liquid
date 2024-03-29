@@ -1,0 +1,36 @@
+---
+layout: page
+---
+<div class="post">
+  <article>
+    {% if page.upcoming_talks%}
+      {% for speaker in page.upcoming_talks %}
+        <hr>
+        <div class="upcoming_talks float-{% if speaker.align == 'left' %}left{% else %}right{% endif %}">
+          {% if speaker.image %}
+            {% assign speaker_image_path = speaker.image | prepend: 'assets/img/' %}
+            {% if speaker.image_circular %}
+              {% assign speaker_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% else %}
+              {% assign speaker_image_class = 'img-fluid z-depth-1 rounded' %}
+            {% endif %}
+            {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+            {% include speaker.liquid loading="eager" path=speaker_image_path class=speaker_image_class sizes=sizes alt=speaker.image %}
+          {% endif %}
+          {% if speaker.more_info %}
+            <div class="more-info">{{ speaker.more_info }}</div>
+          {% endif %}
+        </div>
+
+        <div class="clearfix">
+          {% if speaker.content %}
+            {% capture speaker_content %}{% include_relative {{ speaker.content }} %}{% endcapture %}
+            {{ speaker_content | markdownify }}
+          {% else %}
+            {{ content }}
+          {% endif %}
+        </div>
+      {% endfor %}
+    {% endif %}
+  </article>
+</div>
