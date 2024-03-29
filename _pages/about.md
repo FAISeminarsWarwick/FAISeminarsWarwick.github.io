@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: . Address. Contacts. Moto. Etc.
 
 profile:
   align: center
-  image: prof_pic.jpg
+  image: logo_AI_seminar.png
   image_circular: false # crops the image to make it circular
   
 
