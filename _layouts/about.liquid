@@ -12,28 +12,43 @@ layout: default
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
+  <div class="post">
   <article>
-    <p>Upcoming Talk</p>
-    <!-- Profile Section -->
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+    {% if page.upcoming_talks %}
+      {% for speaker in page.upcoming_talks %}
+        <hr>
+        <div class="speaker float-{% if speaker.align == 'left' %}left{% else %}right{% endif %}">
+          {% if speaker.image %}
+            {% assign speaker_image_path = speaker.image | prepend: 'assets/img/' %}
+            {% if speaker.image_circular %}
+              {% assign speaker_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% else %}
+              {% assign speaker_image_class = 'img-fluid z-depth-1 rounded' %}
+            {% endif %}
+            {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+            {% include figure.liquid loading="eager" path=speaker_image_path class=speaker_image_class sizes=sizes alt=profile.image %}
           {% endif %}
-          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
-          {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image cache_bust=true %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
-      </div>
-    {% endif %}
-    <div class="clearfix">{{ content }}</div>
+          {% if speaker.more_info %}
+            <div class="more-info">{{ speaker.more_info }}</div>
+          {% endif %}
+        </div>
 
+        <div class="clearfix">
+          {% if speaker.content %}
+            {% capture speaker_content %}{% include_relative {{ speaker.content }} %}{% endcapture %}
+            {{ speaker_content | markdownify }}
+          {% else %}
+            {{ content }}
+          {% endif %}
+        </div>
+      {% endfor %}
+    {% endif %}
+  </article>
+</div>
+
+
+  <article>
+ 
     <!-- Additional Sections (News, Latest Posts, Selected Papers, Social) -->
     <!-- Content continues unchanged -->
   </article>
