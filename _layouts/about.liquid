@@ -14,8 +14,8 @@ layout: default
 
   <div class="post">
   <article>
-    {% if page.upcoming_talks %}
-      {% for speaker in page.upcoming_talks %}
+    {% if page.speakers %}
+      {% for speaker in page.speakers %}
         <hr>
         <div class="speaker float-{% if speaker.align == 'left' %}left{% else %}right{% endif %}">
           {% if speaker.image %}
