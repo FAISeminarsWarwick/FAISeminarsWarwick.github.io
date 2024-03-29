@@ -6,7 +6,7 @@ subtitle: . Address. Contacts. Moto. Etc.
 
 profile:
   align: center
-  image: logo_AI_seminar.png
+  image: logo_AI_Seminar.png
   image_circular: false # crops the image to make it circular
   
 
