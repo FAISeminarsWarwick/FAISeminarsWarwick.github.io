@@ -11,6 +11,16 @@
   margin-right: 20px; /* Adds some space between the image and the text */
 }
 
+.frame-style {
+  border: 1px solid #ccc; /* Light grey border, you can change the color and thickness as desired */
+  padding: 20px; /* Spacing inside the frame */
+  margin-bottom: 20px; /* Spacing outside the frame */
+  background-color: #fff; /* White background, can be changed as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for depth */
+}
+
+
+
 
 .upcoming-events h2 {
   color: #333;
