@@ -7,6 +7,7 @@ speaker: "Gabriel Peyre"
 speaker_position: "Professor ENS/ULM"
 location: "Department of Computer Science"
 thumbnail: "/assets/img/gabriel_peyre.jpg"
+link: "https://faiseminarswarwick.github.io"
 ---
 
 
