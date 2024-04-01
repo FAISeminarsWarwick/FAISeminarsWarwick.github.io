@@ -55,6 +55,22 @@ layout: default
   </article>
 </div>
 
+<section class="upcoming-events">
+  <h2>Upcoming Events</h2>
+  <div class="events">
+    {% for event in site.data.events %}
+      <div class="event-card">
+        <img src="{{ event.thumbnail | relative_url }}" alt="{{ event.title }}" class="event-thumbnail">
+        <h3 class="event-title">{{ event.title }}</h3>
+        <p class="event-speaker">{{ event.speaker }}, {{ event.speaker_position }}</p>
+        <p class="event-info">{{ event.date | date: "%A, %B %d, %Y" }} from {{ event.start_time }} to {{ event.end_time }} at {{ event.location }}</p>
+        <p class="event-description">{{ event.description }}</p>
+        <a href="{{ event.link }}" class="event-link">More Info</a>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
 
   <article>
  
