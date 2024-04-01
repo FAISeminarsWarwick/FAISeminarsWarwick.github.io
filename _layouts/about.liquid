@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+
+<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}"> 
 <div class="post">
   {% assign banner_image_path = 'assets/img/LogoAISem.jpg' %}
  <!-- <div class="banner">
@@ -14,6 +16,7 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="desc">{{ page.subtitle }}</p>
   </header>
+<div class="frame-style">
 
   <!-- Upcoming Talk Section -->
   <section class="upcoming-talk">
@@ -22,8 +25,8 @@ layout: default
     <hr style="border-top: 2px solid #bbb;"> 
   -->
   </section>
+ 
 
-  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}"> 
 
   <div class="post">
   <article>
@@ -44,6 +47,8 @@ layout: default
   </article>
 </div>
 
+ <!-- Content of the section that you want to put in the frame -->
+</div>
 <section class="upcoming-events">
   <h2 class="talk-title">Schedule</h2>
   <div class="events">
