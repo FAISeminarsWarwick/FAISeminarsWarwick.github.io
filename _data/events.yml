@@ -1,0 +1,11 @@
+- title: "Talk"
+  date: 2024-04-05
+  start_time: "9:00 AM"
+  end_time: "2:00 PM"
+  location: "Event Location"
+  speaker: "Speaker's Name"
+  speaker_position: "Speaker's Position"
+  thumbnail: "path/to/speaker/image.jpg"
+  description: "Brief event description."
+  link: "link-to-event-page"
+# Repeat the structure for each event.
