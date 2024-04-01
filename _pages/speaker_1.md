@@ -1,6 +1,6 @@
 # Adversarial Training Should Be Cast as a Non-Zero-Sum Game
 
-![Volkan Cevher](/assets/img/volkan_cevher.jpg){: .img-fluid .rounded-circle .align-right}
+![Volkan Cevher](/assets/img/volkan_cevher.jpg){: .img-fluid .rounded-circle .align-left}
 
 **Speaker:** Volkan Cevher  
 **Date:** 2024-04-26  
