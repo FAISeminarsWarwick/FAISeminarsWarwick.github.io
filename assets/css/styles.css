@@ -14,19 +14,15 @@
 
 
 .frame-style {
-  border-top: 1px solid #ccc; /* Top border */
-  border-bottom: 1px solid #ccc; /* Bottom border */
-  padding: 20px 0; /* Top and bottom padding */
-  margin: 0; /* No margins to ensure it spans the full width */
-  background-color: #fff; /* White background */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  width: 100vw; /* Ensures it takes the full viewport width */
-  box-sizing: border-box; /* Makes sure that padding and border are included in the width */
+  border: 1px solid #ccc; /* Light grey border */
+  padding: 20px; /* Spacing inside the frame */
+  margin-bottom: 20px; /* Spacing outside the frame */
+  background-color: #f5f5f5; /* Light grey background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for depth */
 }
 
-html {
-  overflow-x: hidden; /* Hide horizontal scrollbar */
-}
+
+
 
 
 .upcoming-events h2 {
