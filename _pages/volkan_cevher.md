@@ -4,7 +4,7 @@
 
 **Speaker:** Volkan Cevher  
 **Date:** 2024-04-26  
-**Location:** Foundation of AI | Seminars | Warwick  
+**Location:** CS Building, University of Warwick, Coventry, UK 
 
 ## Abstract
 
