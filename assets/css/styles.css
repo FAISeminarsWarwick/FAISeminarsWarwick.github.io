@@ -20,16 +20,23 @@
 }
 
 .seminar-description {
-  padding: 1rem; /* Adds padding inside the section */
-  margin-top: 1rem; /* Adds margin above the section */
-  margin-bottom: 2rem; /* Adds margin below the section */
-  font-size: 1rem; /* Sets the font size for the text */
-  line-height: 1.6; /* Adjusts the line height for better readability */
-  text-align: justify; /* Optional: Justifies the text */
-  max-width: 800px; /* Optional: Controls the width of the text block */
-  margin-left: auto; /* With max-width, auto margins center the block */
+  padding: 2rem; /* Generous padding for a spacious feel */
+  margin-top: 2rem; /* Space above the section */
+  margin-bottom: 3rem; /* Space below the section */
+  font-size: 1.1rem; /* Slightly larger font size for readability */
+  line-height: 1.75; /* Increased line height for elegance */
+  text-align: center; /* Centered text often feels more formal */
+  max-width: 800px; /* Controls the width of the text block */
+  margin-left: auto; /* Centers the block */
   margin-right: auto;
+  background: #ffffff; /* A neutral, clean background color */
+  border: 1px solid #eaeaea; /* Subtle border */
+  border-radius: 10px; /* Rounded corners for a soft look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); /* Light text shadow for dimension */
+  background-image: linear-gradient(to bottom, #ffffff, #f6f6f6); /* Subtle gradient background */
 }
+
 
 
 .frame-style {
