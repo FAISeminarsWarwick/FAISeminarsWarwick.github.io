@@ -19,6 +19,18 @@
   margin-bottom: 20px; /* Adjust the space below the line */
 }
 
+.seminar-description {
+  padding: 1rem; /* Adds padding inside the section */
+  margin-top: 1rem; /* Adds margin above the section */
+  margin-bottom: 2rem; /* Adds margin below the section */
+  font-size: 1rem; /* Sets the font size for the text */
+  line-height: 1.6; /* Adjusts the line height for better readability */
+  text-align: justify; /* Optional: Justifies the text */
+  max-width: 800px; /* Optional: Controls the width of the text block */
+  margin-left: auto; /* With max-width, auto margins center the block */
+  margin-right: auto;
+}
+
 
 .frame-style {
   border: 1px solid #ccc; /* Light grey border */
