@@ -26,15 +26,15 @@
   font-size: 1.1rem; /* Slightly larger font size for readability */
   line-height: 1.75; /* Increased line height for elegance */
   text-align: center; /* Centered text often feels more formal */
-  max-width: 800px; /* Controls the width of the text block */
+  max-width: 1200px; /* Controls the width of the text block */
   margin-left: auto; /* Centers the block */
   margin-right: auto;
-  background: #ffffff; /* A neutral, clean background color */
+  background: #f9f9f9; /* A neutral, clean background color */
   border: 1px solid #eaeaea; /* Subtle border */
   border-radius: 10px; /* Rounded corners for a soft look */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); /* Light text shadow for dimension */
-  background-image: linear-gradient(to bottom, #ffffff, #f6f6f6); /* Subtle gradient background */
+  background-image: linear-gradient(to bottom, #ffffff, #f9f9f9); /* Subtle gradient background */
 }
 
 
