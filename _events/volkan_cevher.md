@@ -6,9 +6,9 @@ end_time: 26-04-2024 14:00:00 -0400
 speaker: "Volkan Cevher"
 speaker_position: "Professor EPFL, Switzerland"
 location: "School of Engineering"
-calendar_icon: "/assets/images/calendar-icon.png"
-location_icon: "/assets/images/location-icon.png"
-speaker_icon: "/assets/images/volkan_cevher.jpg"
+calendar_icon: "/assets/img/calendar-icon.png"
+location_icon: "/assets/img/location-icon.png"
+speaker_icon: "/assets/img/volkan_cevher.jpg"
 link: "https://faiseminarswarwick.github.io"
 ---
 
