@@ -75,6 +75,7 @@
   text-decoration: none;
   color: #007bff; /* Blue link color */
   font-weight: bold;
+  margin-left: 1rem; 
 }
 
 .event-link:hover {
