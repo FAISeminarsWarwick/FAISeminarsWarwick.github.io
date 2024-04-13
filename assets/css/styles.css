@@ -1,80 +1,29 @@
 .upcoming-events {
-  max-width: 1200px; /* Adjust as needed */
+  max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
   font-family: 'Arial', sans-serif;
 }
 
-
-.align-left {
-  float: left;
-  margin-right: 20px; /* Adds some space between the image and the text */
-}
-
-.banner-divider {
-  border: none;
-  height: 2px;
-  background-color: #333; /* Change the color to fit your design */
-  margin-top: 0; /* Adjust the space above the line */
-  margin-bottom: 20px; /* Adjust the space below the line */
-}
-
-.seminar-description {
-  padding: 2rem; /* Generous padding for a spacious feel */
-  margin-top: 2rem; /* Space above the section */
-  margin-bottom: 3rem; /* Space below the section */
-  font-size: 1.1rem; /* Slightly larger font size for readability */
-  line-height: 1.75; /* Increased line height for elegance */
-  text-align: center; /* Centered text often feels more formal */
-  max-width: 1200px; /* Controls the width of the text block */
-  margin-left: auto; /* Centers the block */
-  margin-right: auto;
-  background: #f9f9f9; /* A neutral, clean background color */
-  border: 1px solid #eaeaea; /* Subtle border */
-  border-radius: 10px; /* Rounded corners for a soft look */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); /* Light text shadow for dimension */
-  background-image: linear-gradient(to bottom, #ffffff, #f9f9f9); /* Subtle gradient background */
-}
-
-
-
-.frame-style {
-  border: 1px solid #ccc; /* Light grey border */
-  padding: 20px; /* Spacing inside the frame */
-  margin-bottom: 20px; /* Spacing outside the frame */
-  background-color: #f5f5f5; /* Light grey background */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for depth */
-}
-
-
-
-.upcoming-events h2 {
-  color: #333;
-  text-align: center;
-  border-bottom: 2px solid #333;
-  padding-bottom: 0.5rem;
-  margin-bottom: 2rem;
-}
+/* ... other styles ... */
 
 .event-card {
   display: flex;
-  width: 100%; /* Full width to match the container */
-  max-width: 1200px; /* Match the max-width of the content above, if it's defined */
+  width: 100%;
+  max-width: 1200px;
   flex-wrap: nowrap;
   align-items: center;
+  justify-content: space-between; 
   margin-bottom: 1.5rem;
   padding: 1rem;
   background-color: #f9f9f9;
-  border-left: 5px solid #007bff; /* Blue border color */
+  border-left: 5px solid #007bff;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  align-items: center;
-  justify-content: space-between; 
 }
 
 .event-card img {
-  width: 100px; /* Adjust as needed */
-  height: 100px; /* Adjust as needed */
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   margin-right: 2rem;
   margin-left: 2rem;
@@ -83,81 +32,28 @@
 
 .event-details {
   flex: 1;
-}
-
-.event-details h3 {
-  margin: 0;
-  text-align: left; /* Aligns the text to the left */
-  margin-left: 20px; /* Adjust as needed to match the content above */
-  color: #007bff; /* Blue text color */
-  font-size: 1.2rem;
-}
-
-.event-card-body span,
-.event-card-body p {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 100px; /* You may need to adjust this based on your layout */
-}
-
-
-.event-card .event-card-header,
-.event-card .event-card-body {
-  flex: 1; /* Allows each section to grow and take up equal space */
   min-width: 0; /* Prevents flex items from growing beyond their content size */
 }
 
-.event-card-body span,
-.event-card-body p {
+.event-details h3, .event-details p {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 100px; /* You may need to adjust this based on your layout */
-}
-
-
-.event-card .event-link {
-  white-space: nowrap; /* Ensures the 'More Info' text does not wrap */
-}
-.event-details p {
-  margin: 0.5rem 0;
-  text-align: left; /* Aligns the text to the left */
-  margin-left: 20px; /* Adjust as needed to match the content above */
-  font-size: 0.9rem;
-  color: #666;
-}
-
-.event-details .date {
-  font-weight: bold;
-  color: #333;
 }
 
 .event-link {
-  text-decoration: none;
-  color: #007bff; /* Blue link color */
-  font-weight: bold;
-  margin-left: 2rem; 
-}
-
-.event-link:hover {
-  text-decoration: underline;
-}
-.event-card-header,
-.event-card-body {
-  flex-basis: content-size; /* or some other width */
+  white-space: nowrap;
 }
 
 @media (max-width: 768px) {
   .event-card {
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: flex-start;
   }
-
   
-
   .event-card img {
     margin-bottom: 1rem;
   }
+
+  /* Add any other necessary styles for mobile responsiveness */
 }
