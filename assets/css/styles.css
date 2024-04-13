@@ -49,6 +49,29 @@
 }
 
 
+
+.event-card-body {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  gap: 0.5rem; /* Adjust the gap between items within the card body */
+  /* other styles... */
+}
+
+/* For the location icon specifically, if it's an <img> or <span> */
+.event-card-body .icon {
+  /* Adjust margin or padding as needed */
+  margin-right: 0.5rem; /* Reduce space on the right of the icon */
+}
+
+/* For the text next to the location icon */
+.event-card-body .event-location {
+  /* If you have specific styles for this, adjust the margin or padding here */
+  margin-left: 0; /* Remove any additional margin to the left of the text */
+  /* other styles... */
+}
+
+/* ... other existing styles ... */
+
 .event-card {
   display: flex;
   align-items: center; /* Vertically aligns items in the card */
