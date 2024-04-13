@@ -101,7 +101,7 @@ layout: default
         <img src="{{ event.location_icon | relative_url }}" alt="Location Icon" class="icon"> 
         <span class="event-location">{{ event.location }}</span>
         <img src="{{ event.speaker_icon | relative_url }}" alt="Speaker Icon" class="icon"> 
-        <span class="event-speaker">{{ event.speaker }}</span>
+        <span class="event-speaker">{{ event.speaker, event.speaker_position }}</span>
       </div>
       <a href="{{ event.link }}" class="event-link">More Info</a>
     </div>
