@@ -2,11 +2,78 @@
   margin: 0 auto;
   padding: 2rem;
   font-family: 'Arial', sans-serif;
-  max-width: 1200px; 
+  max-width: 1200px; /* This will constrain the width of the events container */
 }
 
-/* Other existing styles ... */
 /* ... other existing styles ... */
+
+.event-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-left: 5px solid #007bff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 100%; /* This ensures that the card stretches to the width of the container */
+  box-sizing: border-box; /* This ensures padding is included in the width */
+}
+
+/* Align icons and text more closely */
+.event-card-header .icon,
+.event-card-body .icon {
+  margin-right: 0.5rem; /* Adjust this value to reduce the gap */
+}
+
+/* Ensure that all text is aligned and behaves the same */
+.event-card-header span,
+.event-card-body span,
+.event-card-body p,
+.event-details p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* Adjust max-width or remove it if you want to use the flex property instead */
+}
+
+/* This ensures that the 'More Info' button is aligned to the right */
+.event-link {
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .upcoming-events {
+    max-width: 100%; /* Allow the container to be full-width on small screens */
+  }
+
+  .event-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .event-card img {
+    margin-bottom: 1rem;
+  }
+
+  .event-card-header,
+  .event-card-body {
+    width: 100%; /* Ensure full width for mobile layout */
+    text-align: center; /* Center text for mobile layout */
+    margin-bottom: 0.5rem; /* Adjust space between items */
+  }
+
+  .event-details {
+    text-align: center;
+  }
+}
+
+
+
+
+
 .align-left {
   float: left;
   margin-right: 20px; /* Adds some space between the image and the text */
@@ -71,61 +138,6 @@
 }
 
 /* ... other existing styles ... */
-
-.event-card {
-  display: flex;
-  align-items: center; /* Vertically aligns items in the card */
-  justify-content: start; /* Aligns items to the start of the card */
-  flex-wrap: nowrap; /* Prevents wrapping to the next line */
-  margin-bottom: 1.5rem; /* Space between cards */
-  padding: 1rem; /* Padding inside the card */
-  background-color: #f9f9f9;
-  border-left: 5px solid #007bff; /* Blue border color */
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  /* Ensuring all cards have the same width */
-  width: calc(100% - 2rem); /* Adjusting for padding */
-}
-
-.event-card img {
-  width: 80px; 
-  height: 80px; 
-  border-radius: 50%;
-  object-fit: cover;
-  margin-right: 2rem; 
-  flex-shrink: 0; 
-}
-
-.event-details {
-  flex: 1; 
-  min-width: 0; /* Handles text overflow in flex items */
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.event-link {
-  flex-shrink: 0; 
-  white-space: nowrap; /* Keeps 'More Info' on one line */
-  margin-left: auto; /* Pushes 'More Info' to the end */
-}
-
-@media (max-width: 768px) {
-  .event-card {
-    flex-direction: column; 
-    align-items: center; 
-    padding: 1rem; 
-    width: auto; /* Allow cards to fit content on small screens */
-  }
-
-  .event-card img {
-    margin-bottom: 1rem; 
-  }
-
-  .event-details, .event-link {
-    text-align: center; 
-    width: 100%; /* Full width */
-  }
-}
 
 
 
