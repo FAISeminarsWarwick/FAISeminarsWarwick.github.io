@@ -108,12 +108,19 @@
 .event-link:hover {
   text-decoration: underline;
 }
+.event-card-header,
+.event-card-body {
+  flex-basis: content-size; /* or some other width */
+}
 
 @media (max-width: 768px) {
   .event-card {
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: flex-start;
   }
+
+  
 
   .event-card img {
     margin-bottom: 1rem;
