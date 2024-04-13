@@ -1,5 +1,5 @@
 .upcoming-events {
-  max-width: 1200px;
+  max-width: 1200px; /* Adjust to fit the maximum content width */
   margin: 0 auto;
   padding: 2rem;
   font-family: 'Arial', sans-serif;
@@ -9,77 +9,61 @@
 
 .event-card {
   display: flex;
-  width: 100%; /* Full width to match the container */
-  max-width: 1200px; /* Match the max-width of the content above, if it's defined */
-  flex-wrap: nowrap;
-  align-items: center; /* Centers items vertically */
-  justify-content: space-between; /* Distributes space between items */
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Space out items */
+  flex-wrap: nowrap; /* Prevent wrapping */
+  width: 100%; /* Match parent width */
+  max-width: 1200px; /* Match the max-width of the content above */
   margin-bottom: 1.5rem;
   padding: 1rem;
   background-color: #f9f9f9;
   border-left: 5px solid #007bff; /* Blue border color */
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  min-height: 150px; /* Ensures consistent height across all event cards */
 }
 
 .event-card img {
-  width: 100px; /* Adjust as needed */
-  height: 100px; /* Adjust as needed */
+  width: 80px; /* Fixed width for images */
+  height: 80px; /* Fixed height for images */
   border-radius: 50%;
-  margin-right: 2rem;
-  margin-left: 2rem;
   object-fit: cover;
-  flex-shrink: 0; /* Prevents the image from shrinking */
+  flex-shrink: 0; /* Prevent image from shrinking */
 }
 
 .event-details {
-  flex: 1;
-  min-width: 0; /* Allows the item to shrink as needed without content wrapping */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content for varying heights */
+  flex-grow: 1;
+  padding: 0 1rem; /* Add some padding between the text and image/link */
 }
 
 .event-details h3, .event-details p {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  text-align: left; /* Aligns the text to the left */
-  margin-left: 20px; /* Adjust as needed to match the content above */
-  font-size: 1.2rem; /* For h3 */
-  font-size: 0.9rem; /* For p */
-  color: #666; /* For p */
-  margin: 0; /* Reset default margins */
 }
 
 .event-link {
-  text-decoration: none;
-  color: #007bff; /* Blue link color */
-  font-weight: bold;
-  margin-left: 2rem; 
-  white-space: nowrap; /* Prevents wrapping */
-}
-
-.event-link:hover {
-  text-decoration: underline;
+  padding-left: 1rem; /* Add some padding between the text and link */
+  white-space: nowrap; /* Prevent wrapping */
+  flex-shrink: 0; /* Prevent link from shrinking */
 }
 
 @media (max-width: 768px) {
   .event-card {
     flex-direction: column;
-    align-items: stretch; /* Ensures items stretch to full width of the card */
-    min-height: auto; /* Height can be auto-adjusted on smaller screens */
-  }
-  
-  .event-card img {
-    margin: 0 auto 1rem; /* Centers the image and adds space below on smaller screens */
-    width: 80px; /* Smaller size for smaller screens */
-    height: 80px; /* Smaller size for smaller screens */
+    align-items: center; /* Center items for mobile */
   }
 
-  .event-details h3, .event-details p {
-    text-align: center; /* Centers text on smaller screens */
-    margin-left: 0; /* Removes left margin on smaller screens */
+  .event-card img {
+    margin-bottom: 1rem; /* Space below the image on mobile */
+  }
+
+  .event-details {
+    padding: 0; /* Reset padding on mobile */
   }
 
   .event-link {
-    margin: 0 auto; /* Center the link on smaller screens */
+    padding: 1rem 0; /* Space around the link on mobile */
   }
 }
