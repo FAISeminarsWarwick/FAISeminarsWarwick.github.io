@@ -8,7 +8,7 @@ speaker_position: "Associate Professor, UCL"
 location: "CS building"
 calendar_icon: "/assets/img/calendar_icon.png"
 location_icon: "/assets/img/location_icon.png"
-speaker_icon: "/assets/img/fx_briol.jpg"
+speaker_icon: "/assets/img/fxbriol.jpg"
 link: "https://faiseminarswarwick.github.io"
 ---
 
