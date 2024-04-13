@@ -63,6 +63,24 @@
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+
+
+.event-card-header,
+.event-card-body {
+  display: flex; /* Use flexbox for internal layout */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center the items vertically */
+  flex: 1; /* Allow these sections to grow and use available space */
+  padding: 0 1rem; /* Padding on the left and right */
+}
+
+.event-card-body {
+  align-items: flex-start; /* Align items to the start of the flex container */
+}
+
+
+
+
 /* Ensure that all images within event cards have the same size */
 .event-card img {
   width: 80px; /* Fixed width for images */
@@ -80,7 +98,7 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  margin-right: 2rem; /* Space before the 'More Info' link */
+  margin-right: 1rem; /* Space before the 'More Info' link */
 }
 
 .event-link {
