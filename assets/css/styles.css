@@ -57,9 +57,10 @@
   margin-bottom: 2rem;
 }
 
-
 .event-card {
   display: flex;
+  width: 100%; /* Full width to match the container */
+  max-width: 1200px; /* Match the max-width of the content above, if it's defined */
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 1.5rem;
@@ -67,6 +68,7 @@
   background-color: #f9f9f9;
   border-left: 5px solid #007bff; /* Blue border color */
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  align-items: center;
 }
 
 .event-card img {
@@ -84,12 +86,17 @@
 
 .event-details h3 {
   margin: 0;
+  text-align: left; /* Aligns the text to the left */
+  margin-left: 20px; /* Adjust as needed to match the content above */
   color: #007bff; /* Blue text color */
   font-size: 1.2rem;
 }
 
+
 .event-details p {
   margin: 0.5rem 0;
+  text-align: left; /* Aligns the text to the left */
+  margin-left: 20px; /* Adjust as needed to match the content above */
   font-size: 0.9rem;
   color: #666;
 }
