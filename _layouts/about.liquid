@@ -76,7 +76,7 @@ layout: default
       <div class="event-card">
         <img src="{{ event.thumbnail | relative_url }}" alt="{{ event.title }}" class="event-thumbnail">
         <h3 class="event-title">{{ event.title }}</h3>
-        <p class="event-speaker">{{ event.speaker }}, {{ event.speaker_position }}</p>
+        <p class="event-speaker">{{ event.speaker }} - {{ event.speaker_position }}</p>
         <p class="event-info">{{ event.date | date: "%A, %B %d, %Y" }} from {{ event.start_time }} to {{ event.end_time }} at {{ event.location }}</p>
         <p class="event-description">{{ event.description }}</p>
         <a href="{{ event.link }}" class="event-link">More Info</a>
