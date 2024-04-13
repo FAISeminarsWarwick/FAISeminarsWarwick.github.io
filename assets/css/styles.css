@@ -6,6 +6,46 @@
 }
 
 /* ... other existing styles ... */
+.align-left {
+  float: left;
+  margin-right: 20px; /* Adds some space between the image and the text */
+}
+
+.banner-divider {
+  border: none;
+  height: 2px;
+  background-color: #333; /* Change the color to fit your design */
+  margin-top: 0; /* Adjust the space above the line */
+  margin-bottom: 20px; /* Adjust the space below the line */
+}
+
+.seminar-description {
+  padding: 2rem; /* Generous padding for a spacious feel */
+  margin-top: 2rem; /* Space above the section */
+  margin-bottom: 3rem; /* Space below the section */
+  font-size: 1.1rem; /* Slightly larger font size for readability */
+  line-height: 1.75; /* Increased line height for elegance */
+  text-align: center; /* Centered text often feels more formal */
+  max-width: 1200px; /* Controls the width of the text block */
+  margin-left: auto; /* Centers the block */
+  margin-right: auto;
+  background: #f9f9f9; /* A neutral, clean background color */
+  border: 1px solid #eaeaea; /* Subtle border */
+  border-radius: 10px; /* Rounded corners for a soft look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); /* Light text shadow for dimension */
+  background-image: linear-gradient(to bottom, #ffffff, #f9f9f9); /* Subtle gradient background */
+}
+
+
+
+.frame-style {
+  border: 1px solid #ccc; /* Light grey border */
+  padding: 20px; /* Spacing inside the frame */
+  margin-bottom: 20px; /* Spacing outside the frame */
+  background-color: #f5f5f5; /* Light grey background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for depth */
+}
 
 .event-card {
   display: flex;
@@ -69,75 +109,3 @@
     text-align: center;
   }
 }
-
-
-
-
-
-.align-left {
-  float: left;
-  margin-right: 20px; /* Adds some space between the image and the text */
-}
-
-.banner-divider {
-  border: none;
-  height: 2px;
-  background-color: #333; /* Change the color to fit your design */
-  margin-top: 0; /* Adjust the space above the line */
-  margin-bottom: 20px; /* Adjust the space below the line */
-}
-
-.seminar-description {
-  padding: 2rem; /* Generous padding for a spacious feel */
-  margin-top: 2rem; /* Space above the section */
-  margin-bottom: 3rem; /* Space below the section */
-  font-size: 1.1rem; /* Slightly larger font size for readability */
-  line-height: 1.75; /* Increased line height for elegance */
-  text-align: center; /* Centered text often feels more formal */
-  max-width: 1200px; /* Controls the width of the text block */
-  margin-left: auto; /* Centers the block */
-  margin-right: auto;
-  background: #f9f9f9; /* A neutral, clean background color */
-  border: 1px solid #eaeaea; /* Subtle border */
-  border-radius: 10px; /* Rounded corners for a soft look */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); /* Light text shadow for dimension */
-  background-image: linear-gradient(to bottom, #ffffff, #f9f9f9); /* Subtle gradient background */
-}
-
-
-
-.frame-style {
-  border: 1px solid #ccc; /* Light grey border */
-  padding: 20px; /* Spacing inside the frame */
-  margin-bottom: 20px; /* Spacing outside the frame */
-  background-color: #f5f5f5; /* Light grey background */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for depth */
-}
-
-
-
-.event-card-body {
-  display: flex;
-  align-items: center; /* Align items vertically */
-  gap: 0.5rem; /* Adjust the gap between items within the card body */
-  /* other styles... */
-}
-
-/* For the location icon specifically, if it's an <img> or <span> */
-.event-card-body .icon {
-  /* Adjust margin or padding as needed */
-  margin-right: 0.5rem; /* Reduce space on the right of the icon */
-}
-
-/* For the text next to the location icon */
-.event-card-body .event-location {
-  /* If you have specific styles for this, adjust the margin or padding here */
-  margin-left: 0; /* Remove any additional margin to the left of the text */
-  /* other styles... */
-}
-
-/* ... other existing styles ... */
-
-
-
