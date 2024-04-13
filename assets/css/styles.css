@@ -5,55 +5,81 @@
   font-family: 'Arial', sans-serif;
 }
 
-/* ... other styles ... */
+/* ... other existing styles ... */
 
 .event-card {
   display: flex;
-  width: 100%;
-  max-width: 1200px;
+  width: 100%; /* Full width to match the container */
+  max-width: 1200px; /* Match the max-width of the content above, if it's defined */
   flex-wrap: nowrap;
-  align-items: center;
-  justify-content: space-between; 
+  align-items: center; /* Centers items vertically */
+  justify-content: space-between; /* Distributes space between items */
   margin-bottom: 1.5rem;
   padding: 1rem;
   background-color: #f9f9f9;
-  border-left: 5px solid #007bff;
+  border-left: 5px solid #007bff; /* Blue border color */
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  min-height: 150px; /* Ensures consistent height across all event cards */
 }
 
 .event-card img {
-  width: 100px;
-  height: 100px;
+  width: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
   border-radius: 50%;
   margin-right: 2rem;
   margin-left: 2rem;
   object-fit: cover;
+  flex-shrink: 0; /* Prevents the image from shrinking */
 }
 
 .event-details {
   flex: 1;
-  min-width: 0; /* Prevents flex items from growing beyond their content size */
+  min-width: 0; /* Allows the item to shrink as needed without content wrapping */
 }
 
 .event-details h3, .event-details p {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  text-align: left; /* Aligns the text to the left */
+  margin-left: 20px; /* Adjust as needed to match the content above */
+  font-size: 1.2rem; /* For h3 */
+  font-size: 0.9rem; /* For p */
+  color: #666; /* For p */
+  margin: 0; /* Reset default margins */
 }
 
 .event-link {
-  white-space: nowrap;
+  text-decoration: none;
+  color: #007bff; /* Blue link color */
+  font-weight: bold;
+  margin-left: 2rem; 
+  white-space: nowrap; /* Prevents wrapping */
+}
+
+.event-link:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
   .event-card {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch; /* Ensures items stretch to full width of the card */
+    min-height: auto; /* Height can be auto-adjusted on smaller screens */
   }
   
   .event-card img {
-    margin-bottom: 1rem;
+    margin: 0 auto 1rem; /* Centers the image and adds space below on smaller screens */
+    width: 80px; /* Smaller size for smaller screens */
+    height: 80px; /* Smaller size for smaller screens */
   }
 
-  /* Add any other necessary styles for mobile responsiveness */
+  .event-details h3, .event-details p {
+    text-align: center; /* Centers text on smaller screens */
+    margin-left: 0; /* Removes left margin on smaller screens */
+  }
+
+  .event-link {
+    margin: 0 auto; /* Center the link on smaller screens */
+  }
 }
