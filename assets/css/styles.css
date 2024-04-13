@@ -1,5 +1,5 @@
 .upcoming-events {
-  max-width: 800px; /* Adjust as needed */
+  max-width: 1200px; /* Adjust as needed */
   margin: 0 auto;
   padding: 2rem;
   font-family: 'Arial', sans-serif;
@@ -60,6 +60,7 @@
 
 .event-card {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin-bottom: 1.5rem;
   padding: 1rem;
