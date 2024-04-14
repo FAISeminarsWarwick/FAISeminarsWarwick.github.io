@@ -49,6 +49,7 @@
 
 
 .frame-style {
+  align-items: center;
   border: 1px solid #ccc; /* Light grey border */
   padding: 20px; /* Spacing inside the frame */
   max-width: 1240px; 
