@@ -121,72 +121,50 @@
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); /* Light text shadow for dimension */
   background-image: linear-gradient(to bottom, #ffffff, #f9f9f9); /* Subtle gradient background */
 }
-
-/* Style each event card consistently */
 .event-card {
   display: flex;
-  align-items: flex-start; /* Vertically aligns items in the card */
+  align-items: center; /* Aligns items vertically */
   justify-content: space-between; /* Distributes space between items */
-  flex-wrap: nowrap; /* Prevents wrapping to the next line */
   margin-bottom: 1.5rem; /* Space between cards */
   padding: 1rem; /* Padding inside the card */
   background-color: #f9f9f9;
   border-left: 5px solid #007bff; /* Blue border color */
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  margin: 0 auto 1.5rem;
-  max-width: 1200px; 
+  margin-left: auto; /* Center the card within the parent */
+  margin-right: auto;
+  max-width: 1200px; /* Maximum width of the card */
 }
 
-.event-card .event-card-body .icon {
-  /* Adjust margins as needed */
-  margin-right: 4px; /* Reduce the right margin to bring text closer to the icon */
-}
-
-
-.event-date-time {
-  margin-right: 8px; /* Reduce margin to the right of the date */
-}
-
-/* Adjust the margin around the location icon */
-.event-location .icon {
-  margin-right: 1px; /* Reduce margin to the right of the icon */
-  margin-left: 7px;  /* Reduce margin to the left of the icon if necessary */
-}
-
-/* Ensure the location text is close to the icon */
-
-.event-location {
-  display: inline-block; /* Ensures the location text is inline with the icon */
-  margin-left: 0; /* Remove any left margin if present */
-  /* Add other styles as needed */
-}
-
-/* Ensure that all images within event cards have the same size */
-.event-card img {
-  width: 80px; /* Fixed width for images */
-  height: 80px; /* Fixed height for images */
-  border-radius: 50%;
-  object-fit: cover;
-  margin-right: 1rem; /* Space after the image */
-  margin-left: 3rem;
-  flex-shrink: 0; /* Prevents the image from shrinking */
-}
-
-/* Ensure text does not wrap and overflow is handled */
+/* Prevent wrapping of event details and ensure proper alignment */
 .event-details {
-  flex: 1; /* Allows the text to fill the space */
-  min-width: 0; /* Handles text overflow in flex items */
-  white-space: nowrap;
+  flex: 1; /* Allows the text to fill the available space */
+  display: flex;
+  align-items: center; /* Center items vertically */
+  min-width: 0; /* Ensures the container can shrink below its content's intrinsic size if needed */
+}
+
+/* Make sure the icons have fixed sizes and do not shrink */
+.event-card .icon {
+  flex-shrink: 0; /* Prevent shrinking */
+  margin-right: 0.5rem; /* Spacing to the right of the icon */
+}
+
+/* Style the text next to the icons */
+.event-date-time,
+.event-location,
+.event-speaker {
+  white-space: nowrap; /* Ensures the text stays in a single line */
   overflow: hidden;
   text-overflow: ellipsis;
-  margin-right: 1rem; /* Space before the 'More Info' link */
 }
 
+/* Style for the 'More Info' link */
 .event-link {
-  flex-shrink: 0; /* Prevents the link from shrinking */
-  white-space: nowrap; /* Keeps 'More Info' on one line */
-  margin-left: 1rem; /* Space after the event details */
+  margin-left: 1rem; /* Spacing before the link */
+  flex-shrink: 0; /* Prevent the link from shrinking */
 }
+
+
 
 @media (max-width: 768px) {
   .event-card {
