@@ -73,7 +73,12 @@ layout: default
 <section class="upcoming-events" style="padding-top: 20px;">
   <div class="events">
     {% for event in site.events %}
-    <div class="event-card">
+      {% if forloop.first %}
+        {% if forloop.first %}
+        <div class="event-card highlighted-event">
+        {% else %}
+      <div class="event-card">
+   {% endif %}
       <div class="event-card-header">
         <img src="{{ event.calendar_icon | relative_url }}" alt="Calendar Icon" class="icon"> 
         <span class="event-date-time">{{ event.date | date: "%A, %B %d, %Y %H:%M" }}</span>
@@ -90,12 +95,12 @@ layout: default
         <a href="{{ event.link }}" class="event-link">More Info</a>
     {% endif %}
     </div>  <!-- end  div event-card-->
-   </div>  <!-- end  div events-->
     {% endfor %}
+ </div>  <!-- end  div events-->
 </section>
 
 
-</div>
+</div><!-- end  div post-->
 
 
   <article>
