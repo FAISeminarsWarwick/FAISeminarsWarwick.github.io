@@ -62,7 +62,7 @@
 /* Style each event card consistently */
 .event-card {
   display: flex;
-  align-items: center; /* Vertically aligns items in the card */
+  align-items: left; /* Vertically aligns items in the card */
   justify-content: space-between; /* Distributes space between items */
   flex-wrap: nowrap; /* Prevents wrapping to the next line */
   margin-bottom: 1.5rem; /* Space between cards */
@@ -76,18 +76,18 @@
 
 .event-card .event-card-body .icon {
   /* Adjust margins as needed */
-  margin-right: 10px; /* Reduce the right margin to bring text closer to the icon */
+  margin-right: 5px; /* Reduce the right margin to bring text closer to the icon */
 }
 
 
 .event-date-time {
-  margin-right: 10px; /* Reduce margin to the right of the date */
+  margin-right: 5px; /* Reduce margin to the right of the date */
 }
 
 /* Adjust the margin around the location icon */
 .event-location .icon {
   margin-right: 5px; /* Reduce margin to the right of the icon */
-  margin-left: 10px;  /* Reduce margin to the left of the icon if necessary */
+  margin-left: 5px;  /* Reduce margin to the left of the icon if necessary */
 }
 
 /* Ensure the location text is close to the icon */
