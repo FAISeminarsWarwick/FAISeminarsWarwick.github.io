@@ -152,13 +152,13 @@
 .event-card-body {
   flex: 1; /* Distributes width evenly */
   display: flex;
-  align-items: flex-start; /* Centers items vertically */
+  align-items: flex-end; /* Centers items vertically */
   padding: 0 0.5rem; /* Padding for spacing inside */
 }
 
 .event-details {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   flex-grow: 1; /* Grow to use available space */
   margin-right: 1rem; /* Space before the 'More Info' button */
 }
