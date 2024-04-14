@@ -114,7 +114,11 @@ layout: default
         <img src="{{ event.speaker_icon | relative_url }}" alt="Speaker Icon" class="icon"> 
         <span class="event-speaker">{{ event.speaker}} - {{event.speaker_position }}</span>
       </div>
-      <a href="{{ event.link }}" class="event-link">More Info</a>
+       {% if page.speaker_file %}
+       <a href="{{ site.baseurl }}/speakers/{{ page.speaker_file }}.html">More Info</a>
+    {% else %}
+        <a href="{{ event.link }}" class="event-link">More Info</a>
+    {% endif %}
     </div>
    </div>
     {% endfor %}
@@ -122,11 +126,12 @@ layout: default
 </section>
 
 
+</div>
+
 
   <article>
  
     <!-- Additional Sections (News, Latest Posts, Selected Papers, Social) -->
     <!-- Content continues unchanged -->
   </article>
-</div>
-</div>
+
