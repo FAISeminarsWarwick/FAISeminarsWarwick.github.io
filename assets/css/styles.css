@@ -59,7 +59,7 @@
   align-items: center;
   border: 1px solid #ccc; /* Light grey border */
   padding: 20px; /* Spacing inside the frame */
-  max-width: 1240px; 
+  max-width: 1200px; 
   margin-bottom: 20px; /* Spacing outside the frame */
   background-color: #f9f9f9; /* Light grey background */
   border: 1px solid #eaeaea; /* Subtle border */
@@ -72,7 +72,7 @@
 /* Style each event card consistently */
 .event-card {
   display: flex;
-  align-items: left; /* Vertically aligns items in the card */
+  align-items: flex-start; /* Vertically aligns items in the card */
   justify-content: space-between; /* Distributes space between items */
   flex-wrap: nowrap; /* Prevents wrapping to the next line */
   margin-bottom: 1.5rem; /* Space between cards */
@@ -81,7 +81,7 @@
   border-left: 5px solid #007bff; /* Blue border color */
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   margin: 0 auto 1.5rem;
-  max-width: 1240px; 
+  max-width: 1200px; 
 }
 
 .event-card .event-card-body .icon {
