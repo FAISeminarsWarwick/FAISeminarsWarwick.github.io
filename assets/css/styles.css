@@ -7,6 +7,11 @@
   max-width: 1200px; 
 }
 
+.highlighted-event {
+  border: 2px solid #ffa500;
+  background-color: #ffff99; 
+}
+
 
   
 .post {
