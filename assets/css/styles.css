@@ -4,8 +4,7 @@
   padding: 2rem;
   font-family: 'Arial', sans-serif;
   /* If a max-width is needed, it should be the same for all event cards */
-  max-width: 1240px; 
- /* width: 100%;
+  max-width: 1200px; 
 }
 
 .highlighted-event {
@@ -19,7 +18,7 @@
     /* This should be at least as wide as the .upcoming-events */
   margin: 0 auto; /* Center it */
   /* Other styles as needed */
-  max-width: 1240px;
+  max-width: 1200px;
 }
 
 /* ... other existing styles ... */
@@ -93,14 +92,12 @@
 
 /* Adjust the margin around the location icon */
 .event-location .icon {
-  margin-right: 5px; /* Reduce margin to the right of the icon */
+  margin-right: 1px; /* Reduce margin to the right of the icon */
   margin-left: 5px;  /* Reduce margin to the left of the icon if necessary */
 }
 
 /* Ensure the location text is close to the icon */
-.event-location span {
-  margin-left: 0px; /* Reduce margin to the left of the text, adjust as needed */
-}
+
 .event-location {
   display: inline-block; /* Ensures the location text is inline with the icon */
   margin-left: 0; /* Remove any left margin if present */
@@ -114,6 +111,7 @@
   border-radius: 50%;
   object-fit: cover;
   margin-right: 1rem; /* Space after the image */
+  margin-left: 3rem;
   flex-shrink: 0; /* Prevents the image from shrinking */
 }
 
