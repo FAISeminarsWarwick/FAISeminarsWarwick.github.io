@@ -4,7 +4,7 @@ title: "TBD"
 date: 07-06-2024 13:00:00 -0000
 end_time: 07-06-2024 14:00:00 -0000
 speaker: "Mauricio Álvarez "
-speaker_position: "Senior Lecturer, University of Manchester"
+speaker_position: "Senior Lecturer, Univ. of Manchester"
 location: "CS building"
 calendar_icon: "/assets/img/calendar_icon.png"
 location_icon: "/assets/img/location_icon.png"
