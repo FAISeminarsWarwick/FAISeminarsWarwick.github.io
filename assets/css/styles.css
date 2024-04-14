@@ -86,13 +86,13 @@
 
 /* Adjust the margin around the location icon */
 .event-location .icon {
-  margin-right: 10px; /* Reduce margin to the right of the icon */
+  margin-right: 5px; /* Reduce margin to the right of the icon */
   margin-left: 10px;  /* Reduce margin to the left of the icon if necessary */
 }
 
 /* Ensure the location text is close to the icon */
 .event-location span {
-  margin-left: 5px; /* Reduce margin to the left of the text, adjust as needed */
+  margin-left: 0px; /* Reduce margin to the left of the text, adjust as needed */
 }
 .event-location {
   display: inline-block; /* Ensures the location text is inline with the icon */
@@ -106,7 +106,7 @@
   height: 80px; /* Fixed height for images */
   border-radius: 50%;
   object-fit: cover;
-  margin-right: 2rem; /* Space after the image */
+  margin-right: 1rem; /* Space after the image */
   flex-shrink: 0; /* Prevents the image from shrinking */
 }
 
