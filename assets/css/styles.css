@@ -54,6 +54,7 @@
   margin-bottom: 20px; /* Spacing outside the frame */
   background-color: #f5f5f5; /* Light grey background */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for depth */
+  max-width: 1240px; 
 }
 
 /* Style each event card consistently */
