@@ -4,7 +4,7 @@ title: "TBD"
 date: 31-05-2024 13:00:00 -0000
 end_time: 31-05-2024 14:00:00 -0000
 speaker: "François-Xavier Briol"
-speaker_position: "Associate Professor, UCL"
+speaker_position: "Associate Professor, UCL, UK"
 location: "CS building"
 calendar_icon: "/assets/img/calendar_icon.png"
 location_icon: "/assets/img/location_icon.png"
