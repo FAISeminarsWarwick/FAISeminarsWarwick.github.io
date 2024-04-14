@@ -82,7 +82,7 @@ layout: default
    {% endif %}
       <div class="event-card-header">
         <img src="{{ event.calendar_icon | relative_url }}" alt="Calendar Icon" class="icon"> 
-        <span class="event-date-time">{{ event.date | date: "%A, %B %d, %Y %H:%M" }}</span>
+        <span class="event-date-time">{{ event.date | date: "%b %d, %Y" }}</span>
       </div> <!-- end  div event-card-header-->
       <div class="event-card-body">
         <img src="{{ event.location_icon | relative_url }}" alt="Location Icon" class="icon"> 
