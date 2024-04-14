@@ -71,7 +71,16 @@
   max-width: 1200px; 
 }
 
+.event-card .event-card-body .icon {
+  /* Adjust margins as needed */
+  margin-right: 10px; /* Reduce the right margin to bring text closer to the icon */
+}
 
+.event-location {
+  display: inline-block; /* Ensures the location text is inline with the icon */
+  margin-left: 0; /* Remove any left margin if present */
+  /* Add other styles as needed */
+}
 
 /* Ensure that all images within event cards have the same size */
 .event-card img {
