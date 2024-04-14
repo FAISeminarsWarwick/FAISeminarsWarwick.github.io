@@ -139,8 +139,8 @@
   display: flex;
   align-items: center; /* Aligns items vertically */
   justify-content: space-between; /* Distributes space between items */
-  margin: 1.5rem auto; /* Space between cards and centering */
-  padding: 1rem; /* Padding inside the card */
+  margin: 1.2rem auto; /* Space between cards and centering */
+  padding: 0.8rem; /* Padding inside the card */
   background-color: #f9f9f9;
   border-left: 5px solid #007bff; /* Blue border color */
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -152,7 +152,7 @@
 .event-card-body {
   flex: 1; /* Distributes width evenly */
   display: flex;
-  align-items: center; /* Centers items vertically */
+  align-items: flex-start; /* Centers items vertically */
   padding: 0 0.5rem; /* Padding for spacing inside */
 }
 
@@ -166,8 +166,8 @@
 
 /* Adjust icon size and spacing */
 .event-card .icon {
-  width: 80px; /* Adjust size as necessary */
-  height: 80px; /* Adjust size as necessary */
+  width: 75px; /* Adjust size as necessary */
+  height: 75px; /* Adjust size as necessary */
   margin-right: 0.5rem; /* Spacing to the right of the icon */
 }
 
