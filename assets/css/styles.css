@@ -172,6 +172,16 @@
   border-radius: 5px; /* Rounded corners for the link */
   text-decoration: none; /* Removes underline from the link */
 }
+.event-card img {
+  width: 80px; /* Fixed width for images */
+  height: 80px; /* Fixed height for images */
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1rem; /* Space after the image */
+  margin-left: 3rem;
+  flex-shrink: 0; /* Prevents the image from shrinking */
+}
+
 
 @media (max-width: 768px) {
   .event-card {
