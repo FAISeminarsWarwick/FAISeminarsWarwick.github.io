@@ -12,6 +12,17 @@
   background-color: #ffff99; 
 }
 
+.highlighted-event .event-link {
+  /* No specific styles, or only the styles you want all links to share */
+  margin-left: 1rem; /* Space before the link */
+  flex-shrink: 0; /* Prevents the link from shrinking */
+  background: #007bff; /* Background color for the link */
+  color: white; /* Text color for the link */
+  padding: 0.5rem 1rem; /* Padding inside the link */
+  border-radius: 5px; /* Rounded corners for the link */
+  text-decoration: none; /* Removes underline from the link */
+}
+
 .organising-team {
   text-align: center;
   padding: 2rem;
@@ -164,7 +175,7 @@
 .event-date-time,
 .event-location,
 .event-speaker {
-  margin-right: 0.5rem; 
+  margin-right: 0.3rem; 
   flex-grow: 1;
   white-space: nowrap; /* Keeps text on a single line */
   overflow: hidden;
@@ -187,7 +198,7 @@
   border-radius: 50%;
   object-fit: cover;
   margin-right: 1rem; /* Space after the image */
-  margin-left: 3rem;
+  margin-left: 2rem;
   flex-shrink: 0; /* Prevents the image from shrinking */
 }
 
