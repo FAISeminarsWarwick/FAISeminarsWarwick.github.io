@@ -121,63 +121,72 @@
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); /* Light text shadow for dimension */
   background-image: linear-gradient(to bottom, #ffffff, #f9f9f9); /* Subtle gradient background */
 }
+
+
+
 .event-card {
   display: flex;
   align-items: center; /* Aligns items vertically */
   justify-content: space-between; /* Distributes space between items */
-  margin-bottom: 1.5rem; /* Space between cards */
+  margin: 1.5rem auto; /* Space between cards and centering */
   padding: 1rem; /* Padding inside the card */
   background-color: #f9f9f9;
   border-left: 5px solid #007bff; /* Blue border color */
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  margin-left: auto; /* Center the card within the parent */
-  margin-right: auto;
   max-width: 1200px; /* Maximum width of the card */
+  box-sizing: border-box; /* Includes padding and border in the width */
 }
 
-/* Prevent wrapping of event details and ensure proper alignment */
-.event-details {
-  flex: 1; /* Allows the text to fill the available space */
+.event-card-header,
+.event-card-body {
+  flex: 1; /* Distributes width evenly */
   display: flex;
-  align-items: center; /* Center items vertically */
-  min-width: 0; /* Ensures the container can shrink below its content's intrinsic size if needed */
+  align-items: center; /* Centers items vertically */
+  padding: 0 0.5rem; /* Padding for spacing inside */
 }
 
-/* Make sure the icons have fixed sizes and do not shrink */
+/* Adjust icon size and spacing */
 .event-card .icon {
-  flex-shrink: 0; /* Prevent shrinking */
+  width: 30px; /* Adjust size as necessary */
+  height: 30px; /* Adjust size as necessary */
   margin-right: 0.5rem; /* Spacing to the right of the icon */
 }
 
-/* Style the text next to the icons */
+/* Ensure the text is aligned properly and does not overflow */
 .event-date-time,
 .event-location,
 .event-speaker {
-  white-space: nowrap; /* Ensures the text stays in a single line */
+  flex-grow: 1;
+  white-space: nowrap; /* Keeps text on a single line */
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-/* Style for the 'More Info' link */
+/* More Info Link Styling */
 .event-link {
-  margin-left: 1rem; /* Spacing before the link */
-  flex-shrink: 0; /* Prevent the link from shrinking */
+  margin-left: 1rem; /* Space before the link */
+  flex-shrink: 0; /* Prevents the link from shrinking */
+  background: #007bff; /* Background color for the link */
+  color: white; /* Text color for the link */
+  padding: 0.5rem 1rem; /* Padding inside the link */
+  border-radius: 5px; /* Rounded corners for the link */
+  text-decoration: none; /* Removes underline from the link */
 }
-
-
 
 @media (max-width: 768px) {
   .event-card {
-    flex-direction: column; /* Stack items on small screens */
+    flex-direction: column; /* Stack items vertically on small screens */
     align-items: center; /* Center-align items for mobile layout */
-    padding: 1rem; /* Adjust padding as necessary */
   }
 
-  .event-card img {
-    margin-bottom: 1rem; /* Space below the image */
+  .event-card-header,
+  .event-card-body {
+    flex-direction: column; /* Stack items vertically inside the card */
+    align-items: center; /* Center-align items for mobile layout */
   }
 
-  .event-details {
-    text-align: center; /* Center-align text for mobile layout */
+  .event-card .icon {
+    margin-bottom: 0.5rem; /* Space below the icon on small screens */
   }
 }
+
