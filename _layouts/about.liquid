@@ -9,19 +9,15 @@ layout: default
   {% assign banner_image_path = 'assets/img/logo_fais.png' %}
   <div class="banner">
     <img src="{{ banner_image_path }}" alt="Banner" class="img-fluid" style="max-width: 100%; height: auto;">
-  </div>
+  </div> <!-- end div banner-->
   <hr class="banner-divider"> <!-- This is the line you're adding -->
 
  <section class="seminar-description">
     <p>The Foundations of AI Seminar Series is dedicated to topics of interest in artificial intelligence, machine learning, both empirically and theoretically, as well as related areas. 
     Our goal is for these meetings to serve as a forum for discussions and quick dissemination of results. We invite anyone interested in the latest advancements in AI/ML to join us!</p>
   </section>
-</div>
+</div> <!-- end div post-->
 
-
-
-
- <!-- <div class="banner" style="background-image: url('{{ banner_image_path }}'); height: 350px; background-size: cover; background-position: center;"></div>>
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
@@ -52,13 +48,12 @@ layout: default
           {% else %}
             {{ content }}
           {% endif %}
-        </div>
+        </div> <!-- end  div clearfix-->
       {% endfor %}
     {% endif %}
   </article>
-</div>
+</div> <!-- end  div framestyle-->
 
-</div>
 
 
 
@@ -73,30 +68,29 @@ layout: default
   <h2 class="talk-title">Upcoming Events</h2>
  <hr style="border-top: 2px solid #bbb;"> 
 </section>
-</div>
+
 
 <section class="upcoming-events" style="padding-top: 20px;">
- <div class="post">
   <div class="events">
     {% for event in site.events %}
     <div class="event-card">
       <div class="event-card-header">
         <img src="{{ event.calendar_icon | relative_url }}" alt="Calendar Icon" class="icon"> 
         <span class="event-date-time">{{ event.date | date: "%A, %B %d, %Y %H:%M" }}</span>
-      </div>
+      </div> <!-- end  div event-card-header-->
       <div class="event-card-body">
         <img src="{{ event.location_icon | relative_url }}" alt="Location Icon" class="icon"> 
         <span class="event-location">{{ event.location }}</span>
         <img src="{{ event.speaker_icon | relative_url }}" alt="Speaker Icon" class="icon"> 
         <span class="event-speaker">{{ event.speaker}} - {{event.speaker_position }}</span>
-      </div>
+      </div> <!-- end  div event-card-body-->
        {% if page.speaker_file %}
        <a href="{{ site.baseurl }}/speakers/{{ page.speaker_file }}.html">More Info</a>
     {% else %}
         <a href="{{ event.link }}" class="event-link">More Info</a>
     {% endif %}
-    </div>
-   </div>
+    </div>  <!-- end  div event-card-->
+   </div>  <!-- end  div events-->
     {% endfor %}
 </section>
 
