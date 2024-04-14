@@ -145,10 +145,18 @@
   padding: 0 0.5rem; /* Padding for spacing inside */
 }
 
+.event-details {
+  display: flex;
+  align-items: center;
+  flex-grow: 1; /* Grow to use available space */
+  margin-right: 1rem; /* Space before the 'More Info' button */
+}
+
+
 /* Adjust icon size and spacing */
 .event-card .icon {
-  width: 30px; /* Adjust size as necessary */
-  height: 30px; /* Adjust size as necessary */
+  width: 80px; /* Adjust size as necessary */
+  height: 80px; /* Adjust size as necessary */
   margin-right: 0.5rem; /* Spacing to the right of the icon */
 }
 
@@ -156,6 +164,7 @@
 .event-date-time,
 .event-location,
 .event-speaker {
+  margin-right: 0.5rem; 
   flex-grow: 1;
   white-space: nowrap; /* Keeps text on a single line */
   overflow: hidden;
