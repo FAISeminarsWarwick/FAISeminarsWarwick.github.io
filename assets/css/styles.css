@@ -9,9 +9,10 @@
 }
 
 .post {
-  max-width: 1200px; /* This should be at least as wide as the .upcoming-events */
+    /* This should be at least as wide as the .upcoming-events */
   margin: 0 auto; /* Center it */
   /* Other styles as needed */
+  max-width: 1240px;
 }
 
 /* ... other existing styles ... */
