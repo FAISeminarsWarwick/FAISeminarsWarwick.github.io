@@ -40,8 +40,6 @@ layout: default
   </section>
  
 
-
-  <div class="post">
   <article>
     {% if page.speakers %}
       {% for speaker in page.speakers %}
@@ -68,32 +66,8 @@ layout: default
 
  <!-- Content of the section that you want to put in the frame -->
 
-<!-- <section class="upcoming-events">
-  <h2 class="talk-title">Schedule</h2>
- <hr style="border-top: 2px solid #bbb;"> 
-</section>
-<section class="upcoming-events">
-  <div class="events">
-    {% for event in site.events %}
-      <div class="event-card">
-        <img src="{{ event.thumbnail | relative_url }}" alt="{{ event.title }}" class="event-thumbnail">
-        <h3 class="event-title">{{ event.title }}</h3>
-        <p class="event-speaker">{{ event.speaker }} - {{ event.speaker_position }}</p>
-        <p class="event-info">{{ event.date | date: "%A, %B %d, %Y" }} from {{ event.start_time }} to {{ event.end_time }} at {{ event.location }}</p>
-        <p class="event-description">{{ event.description }}</p>
-    {% if page.speaker_file %}
-       <a href="{{ site.baseurl }}/speakers/{{ page.speaker_file }}.html">More Info</a>
-    {% else %}
-        <a href="{{ event.link }}" class="event-link">More Info</a>
-    {% endif %}
-      
-      </div>
-    {% endfor %}
-  </div>
-</section>
--->
+
 <!-- Events Section -->
-<div class="frame-style">
 <section class="upcoming-talk">
   <h2 class="talk-title">Upcoming Events</h2>
  <hr style="border-top: 2px solid #bbb;"> 
@@ -122,7 +96,6 @@ layout: default
     </div>
    </div>
     {% endfor %}
-  </div>
 </section>
 
 
