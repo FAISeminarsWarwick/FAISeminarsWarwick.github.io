@@ -5,6 +5,13 @@
   font-family: 'Arial', sans-serif;
   /* If a max-width is needed, it should be the same for all event cards */
   max-width: 1200px; 
+  width: 100%;
+}
+
+.post {
+  max-width: 1200px; /* This should be at least as wide as the .upcoming-events */
+  margin: 0 auto; /* Center it */
+  /* Other styles as needed */
 }
 
 /* ... other existing styles ... */
