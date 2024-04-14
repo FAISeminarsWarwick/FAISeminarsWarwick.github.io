@@ -89,8 +89,8 @@ layout: default
         <img src="{{ event.speaker_icon | relative_url }}" alt="Speaker Icon" class="icon"> 
         <span class="event-speaker">{{ event.speaker}} - {{event.speaker_position }}</span>
       </div> <!-- end  div event-card-body-->
-       {% if page.speaker_file %}
-       <a href="{{ site.baseurl }}/speakers/{{ page.speaker_file }}.html">More Info</a>
+       {% if event.speaker_file %}
+       <a href="{{ site.baseurl }}/speakers/{{ event.speaker_file }}.html">More Info</a>
     {% else %}
         <a href="{{ event.link }}" class="event-link">More Info</a>
     {% endif %}
