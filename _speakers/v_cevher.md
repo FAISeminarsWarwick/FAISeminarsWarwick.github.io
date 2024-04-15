@@ -1,5 +1,5 @@
 ---
-layout: speaker
+layout: default
 title: Volkan Cevher
 position: Professor at EPFL, Switzerland
 image: /assets/img/volkan_cevher.jpg
