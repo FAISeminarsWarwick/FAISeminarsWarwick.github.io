@@ -32,6 +32,42 @@
 }
 
 
+.speaker-page {
+  padding: 20px;
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 900px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.speaker-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.speaker-details img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.speaker-details .name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.speaker-details .position {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
 
 
 .organising-team {
