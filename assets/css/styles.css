@@ -168,7 +168,7 @@
 .event-card .icon {
   width: 75px; /* Adjust size as necessary */
   height: 75px; /* Adjust size as necessary */
-  margin-right: 0.5rem; /* Spacing to the right of the icon */
+  margin-right: 0.3rem; /* Spacing to the right of the icon */
 }
 
 /* Ensure the text is aligned properly and does not overflow */
@@ -184,7 +184,7 @@
 
 /* More Info Link Styling */
 .event-link {
-  margin-left: 1rem; /* Space before the link */
+  margin-left: 0.7rem; /* Space before the link */
   flex-shrink: 0; /* Prevents the link from shrinking */
   background: #007bff; /* Background color for the link */
   color: white; /* Text color for the link */
@@ -198,7 +198,7 @@
   height: 80px; /* Fixed height for images */
   border-radius: 50%;
   object-fit: cover;
-  margin-right: 1rem; /* Space after the image */
+  margin-right: 0.8rem; /* Space after the image */
   margin-left: 2rem;
   flex-shrink: 0; /* Prevents the image from shrinking */
 }
