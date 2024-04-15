@@ -163,7 +163,7 @@ external_sources:
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
-
+ 
 collections:
   news:
     defaults:
@@ -177,6 +177,10 @@ collections:
   events:
     output: true
     permalink: /events/:name/
+
+  speakers:
+    output: true
+    permalink: /speakers/:path/
 
 announcements:
   enabled: true
