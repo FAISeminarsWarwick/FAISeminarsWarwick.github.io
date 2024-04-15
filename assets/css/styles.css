@@ -174,14 +174,14 @@
 .event-card .icon {
   width: 75px; /* Adjust size as necessary */
   height: 75px; /* Adjust size as necessary */
-  margin-right: 0.3rem; /* Spacing to the right of the icon */
+  margin-right: 0.2rem; /* Spacing to the right of the icon */
 }
 
 /* Ensure the text is aligned properly and does not overflow */
 .event-date-time,
 .event-location,
 .event-speaker {
-  margin-right: 0.3rem; 
+  margin-right: 0.2rem; 
   flex-grow: 1;
   white-space: nowrap; /* Keeps text on a single line */
   overflow: hidden;
