@@ -1,6 +1,6 @@
 ---
 layout: speakers
-permalink: /
+permalink: /speakers/
 title: 
 description: Foundation of AI | Seminars | Warwick
 nav: true
