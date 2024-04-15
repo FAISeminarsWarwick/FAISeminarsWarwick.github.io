@@ -1,3 +1,10 @@
+---
+layout: speaker
+title: Volkan Cevher
+position: Professor at EPFL, Switzerland
+---
+
+
 # Adversarial Training Should Be Cast as a Non-Zero-Sum Game
 
 ![Volkan Cevher](/assets/img/volkan_cevher.jpg){: .img-fluid .rounded-circle .align-left}
