@@ -4,15 +4,17 @@ layout: default
 <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}"> 
 
 <div class="speaker-page">
-  <div class="container">
-    <h1>{{ page.title }}</h1>
-    <h2>{{ page.position }}</h2>
-    <img src="{{ page.image }}" alt="{{ page.title }}" class="img-fluid rounded-circle align-left">
-    
-    <div class="speaker-content">
-      {{ content }}
-    </div>
+  <h1>{{ page.title }}</h1>
+  <h2>{{ page.position }}</h2>
+
+  <img src="{{ page.image_path }}" alt="{{ page.title }}" class="speaker-image">
+
+  <div class="speaker-details">
+    <p>{{ page.bio }}</p>
   </div>
+
+  <!-- Speaker content will be inserted here -->
+  {{ content }}
 </div>
 
 
