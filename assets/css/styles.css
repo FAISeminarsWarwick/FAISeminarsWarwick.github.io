@@ -165,6 +165,7 @@
   display: flex;
   align-items: flex-end; /* Centers items vertically */
   padding: 0 0.5rem; /* Padding for spacing inside */
+  margin-right: auto;
 }
 
 .event-details {
