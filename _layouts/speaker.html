@@ -1,14 +1,18 @@
+<!-- _layouts/speaker.html -->
 ---
 layout: default
 ---
 
-<div class="speaker-page">
-  <h1>{{ page.title }}</h1>
-  <h2>{{ page.position }}</h2>
-  
-  <div class="bio">
+<article class="speaker-profile">
+  <header class="speaker-header">
+    <img src="{{ page.image }}" alt="{{ page.name }}" class="speaker-photo">
+    <h1>{{ page.name }}</h1>
+    <p class="speaker-title">{{ page.position }}</p>
+  </header>
+
+  <section class="speaker-bio">
     {{ content }}
-  </div>
-  
-  <!-- Add any additional HTML or Liquid tags for styling or content as needed -->
-</div>
+  </section>
+
+  <!-- Add any additional HTML for styling or linking back to the main events page -->
+</article>
