@@ -14,9 +14,14 @@
 
 /* Special styling for highlighted event link */
 .highlighted-event .event-link {
-  /* Override specific styles for highlighted event link if needed */
-  border: 2px solid #007bff; /* Optional: if you want a border around the link */
-  /* Any other specific styles for highlighted event link */
+   /* Shared styles for all event links */
+  margin-left: 1rem; /* Space before the link */
+  flex-shrink: 0; /* Prevents the link from shrinking */
+  background: #007bff; /* Background color for the link */
+  color: white; /* Text color for the link */
+  padding: 0.5rem 1rem; /* Padding inside the link */
+  border-radius: 5px; /* Rounded corners for the link */
+  text-decoration: none; /* Removes underline from the link */
 }
 
 /* Ensure the highlighted event styles do not conflict with the default link styles */
