@@ -7,21 +7,27 @@
   max-width: 1200px; 
 }
 
-.highlighted-event {
-  border: 2px solid #ffa500;
-  background-color: #ffff99; 
+
+
+/* Default styling for 'More Info' link */
+
+
+/* Special styling for highlighted event link */
+.highlighted-event .event-link {
+  /* Override specific styles for highlighted event link if needed */
+  border: 2px solid #007bff; /* Optional: if you want a border around the link */
+  /* Any other specific styles for highlighted event link */
 }
 
+/* Ensure the highlighted event styles do not conflict with the default link styles */
 .highlighted-event .event-link {
-  /* No specific styles, or only the styles you want all links to share */
-  margin-left: 1rem; /* Space before the link */
-  flex-shrink: 0; /* Prevents the link from shrinking */
-  background: #007bff; /* Background color for the link */
-  color: white; /* Text color for the link */
-  padding: 0.5rem 1rem; /* Padding inside the link */
-  border-radius: 5px; /* Rounded corners for the link */
-  text-decoration: none; /* Removes underline from the link */
+  /* If you want the exact same style as the default link, you might not need to change anything */
+  background: #007bff; /* Ensures background color matches other links */
+  /* Rest of your styles */
 }
+
+
+
 
 .organising-team {
   text-align: center;
@@ -184,14 +190,15 @@
 
 /* More Info Link Styling */
 .event-link {
-  margin-left: 0.7rem; /* Space before the link */
+  /* Shared styles for all event links */
+  margin-left: 1rem; /* Space before the link */
   flex-shrink: 0; /* Prevents the link from shrinking */
   background: #007bff; /* Background color for the link */
   color: white; /* Text color for the link */
   padding: 0.5rem 1rem; /* Padding inside the link */
   border-radius: 5px; /* Rounded corners for the link */
   text-decoration: none; /* Removes underline from the link */
-  display: inline-block;
+  /* Any other shared styles */
 }
 .event-card img {
   width: 80px; /* Fixed width for images */
