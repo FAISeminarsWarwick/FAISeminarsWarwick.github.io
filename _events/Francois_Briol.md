@@ -10,7 +10,7 @@ calendar_icon: "/assets/img/calendar_icon.png"
 location_icon: "/assets/img/location_icon.png"
 speaker_icon: "/assets/img/fxbriol.jpg"
 link: "https://faiseminarswarwick.github.io"
-speaker_file: francoi_briol
+speaker_file: f_briol
 ---
 
 
