@@ -10,7 +10,7 @@ calendar_icon: "/assets/img/calendar_icon.png"
 location_icon: "/assets/img/location_icon.png"
 speaker_icon: "/assets/img/volkan_cevher.jpg"
 link: "https://faiseminarswarwick.github.io"
-speaker_file: /speakers/v_cevher
+speaker_file: v_cevher
 ---
 
 
