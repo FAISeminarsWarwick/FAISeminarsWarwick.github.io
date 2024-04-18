@@ -1,10 +1,12 @@
 ---
 layout: speaker
 permalink: /speakers/v_chever/
-title: 
+title: Volkan Cevher
+position: Professor EPFL
 description: Foundation of AI | Seminars | Warwick
 nav: true
 nav_order: 1
+image_path: "/assets/images/speakers/volkan_cevher.jpg"
 
 speakers: 
   # if you want to include more than one profile, just replicate the following block
