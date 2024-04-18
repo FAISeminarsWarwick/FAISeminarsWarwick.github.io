@@ -1,6 +1,6 @@
 ---
 layout: speaker
-permalink: /speakers/v_chever/
+permalink: /speakers/v_cevher/
 title: Volkan Cevher
 position: Professor EPFL
 description: Foundation of AI | Seminars | Warwick
