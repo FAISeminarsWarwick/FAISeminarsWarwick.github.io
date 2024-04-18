@@ -1,6 +1,6 @@
 ---
 layout: speakers
-permalink: /speakers/
+permalink: /speakers/v_chever/
 title: 
 description: Foundation of AI | Seminars | Warwick
 nav: true
