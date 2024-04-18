@@ -181,55 +181,6 @@
 }
 
 
-
-.event-card {
-  display: flex;
-  align-items: center; /* Aligns items vertically */
-  justify-content: space-between; /* Distributes space between items */
-  margin: 1.2rem auto; /* Space between cards and centering */
-  padding: 0.8rem; /* Padding inside the card */
-  background-color: #f9f9f9;
-  border-left: 5px solid #007bff; /* Blue border color */
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  max-width: 1200px; /* Maximum width of the card */
-  box-sizing: border-box; /* Includes padding and border in the width */
-}
-
-.event-card-header,
-.event-card-body {
-  flex: 1; /* Distributes width evenly */
-  display: flex;
-  align-items: flex-start; /* Centers items vertically */
-  padding: 0 0.5rem; /* Padding for spacing inside */
-  margin-right: auto;
-}
-
-.event-details {
-  display: flex;
-  align-items: flex-start;
-  flex-grow: 1; /* Grow to use available space */
-  margin-right: 1rem; /* Space before the 'More Info' button */
-}
-
-
-/* Adjust icon size and spacing */
-.event-card .icon {
-  width: 75px; /* Adjust size as necessary */
-  height: 75px; /* Adjust size as necessary */
-  margin-right: 0.2rem; /* Spacing to the right of the icon */
-}
-
-/* Ensure the text is aligned properly and does not overflow */
-.event-date-time,
-.event-location,
-.event-speaker {
-  margin-right: 0.2rem; 
-  flex-grow: 1;
-  white-space: nowrap; /* Keeps text on a single line */
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
 /* More Info Link Styling */
 .event-link {
   /* Shared styles for all event links */
@@ -242,16 +193,62 @@
   text-decoration: none; /* Removes underline from the link */
   /* Any other shared styles */
 }
+
+
+
+.event-card {
+  display: flex;
+  align-items: center; /* Aligns items vertically */
+  justify-content: start; /* Distributes items to the start */
+  margin: 1.2rem auto; /* Space between cards and centering */
+  padding: 0.8rem; /* Padding inside the card */
+  background-color: #f9f9f9;
+  border-left: 5px solid #007bff; /* Blue border color */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 100%; /* Ensure full width */
+  max-width: 1200px; /* Maximum width of the card */
+  box-sizing: border-box; /* Includes padding and border in the width */
+}
+
+.event-card-header,
+.event-card-body {
+  flex: 1; /* Distributes width evenly */
+  display: flex;
+  align-items: center; /* Centers items vertically */
+  padding: 0 0.5rem; /* Padding for spacing inside */
+}
+
+.event-details {
+  display: flex;
+  align-items: center;
+  flex-grow: 1; /* Grow to use available space */
+  margin-right: 0.5rem; /* Adjusted space before the 'More Info' button */
+}
+
+/* ... existing styles for .event-card .icon ... */
+
+.event-date-time,
+.event-location,
+.event-speaker {
+  margin-right: 0.2rem;
+  flex-grow: 1;
+  white-space: nowrap; /* Keeps text on a single line */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 20px; /* Ensure uniform height */
+}
+
 .event-card img {
   width: 80px; /* Fixed width for images */
   height: 80px; /* Fixed height for images */
   border-radius: 50%;
   object-fit: cover;
-  margin-right: 0.8rem; /* Space after the image */
-  margin-left: 2rem;
+  margin-right: 0.8rem; /* Adjusted space after the image */
+  margin-left: 0.8rem; /* Adjusted left margin to align images */
   flex-shrink: 0; /* Prevents the image from shrinking */
 }
 
+/* ... existing styles for .event-link ... */
 
 @media (max-width: 768px) {
   .event-card {
@@ -268,5 +265,11 @@
   .event-card .icon {
     margin-bottom: 0.5rem; /* Space below the icon on small screens */
   }
+  
+  .event-details {
+    margin-right: 0; /* Adjust margin for mobile view */
+  }
 }
+
+/* ... other existing styles ... */
 
