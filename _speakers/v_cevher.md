@@ -7,5 +7,5 @@ description: Foundations of AI | Seminars | Warwick
 image_path: "/assets/img/volkan_cevher.jpg"
 
 speakers:
-  - content: /pages/volkan_cevher.md
+  - content: pages/volkan_cevher.md
 ---
