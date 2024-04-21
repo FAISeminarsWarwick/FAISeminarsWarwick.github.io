@@ -181,6 +181,9 @@ collections:
   speakers:
     output: true
     permalink: /speakers/:path/
+  pages:
+    output: true
+    permalink: /pages/:path/
 
 announcements:
   enabled: true
