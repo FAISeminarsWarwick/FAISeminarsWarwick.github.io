@@ -9,12 +9,19 @@ layout: default
 
   <img src="{{ page.image_path }}" alt="{{ page.title }}" class="speaker-image">
 
-  <div class="speaker-details">
-    <p>{{ page.bio }}</p>
-  </div>
+  {% if page.bio %}
+    <div class="speaker-details">
+      <p>{{ page.bio }}</p>
+    </div>
+  {% endif %}
 
   <!-- Speaker content will be inserted here -->
   {{ content }}
+
+  <!-- Include additional speaker content -->
+  {% if page.speakers %}
+    {% for speaker in page.speakers %}
+      {% include speaker.content %}
+    {% endfor %}
+  {% endif %}
 </div>
-
-
