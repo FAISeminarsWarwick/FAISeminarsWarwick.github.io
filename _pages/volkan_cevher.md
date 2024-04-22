@@ -4,7 +4,7 @@
 
 **Speaker:** Volkan Cevher  
 **Date:** 2024-04-26  
-**Location:** MS Building, MB0.07, University of Warwick, Coventry, UK 
+**Location:** Mathematical Sciences Building, MB0.07, University of Warwick, Coventry, UK 
 
 ## Abstract
 
