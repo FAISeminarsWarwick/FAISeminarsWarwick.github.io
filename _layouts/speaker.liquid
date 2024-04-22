@@ -21,7 +21,7 @@ layout: default
   <!-- Include additional speaker content -->
   {% if page.speakers %}
     {% for speaker in page.speakers %}
-      {% include speaker.content %}
+      {% include_markdown speaker.content %}
     {% endfor %}
   {% endif %}
 </div>
