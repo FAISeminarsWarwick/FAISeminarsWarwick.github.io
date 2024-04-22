@@ -6,22 +6,15 @@ layout: default
 <div class="speaker-page">
   <h1>{{ page.title }}</h1>
   <h2>{{ page.position }}</h2>
-
   <img src="{{ page.image_path }}" alt="{{ page.title }}" class="speaker-image">
 
+  <!-- Speaker bio will be inserted here if it exists in the front matter -->
   {% if page.bio %}
     <div class="speaker-details">
       <p>{{ page.bio }}</p>
     </div>
   {% endif %}
 
-  <!-- Speaker content will be inserted here -->
+  <!-- The content from the Markdown file that uses this layout will be inserted here -->
   {{ content }}
-
-  <!-- Include additional speaker content -->
-  {% if page.speakers %}
-    {% for speaker in page.speakers %}
-      {% include_markdown speaker.content %}
-    {% endfor %}
-  {% endif %}
 </div>
