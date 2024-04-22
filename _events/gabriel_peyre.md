@@ -5,7 +5,7 @@ date: 14-06-2024 13:00:00 -0000
 end_time: 14-06-2024 14:00:00 -0000
 speaker: "Gabriel Peyré"
 speaker_position: " CNRS researcher|DMA/ENS, France"
-location: "CS building"
+location: "TBD"
 calendar_icon: "/assets/img/calendar_icon.png"
 location_icon: "/assets/img/location_icon.png"
 speaker_icon: "/assets/img/gabriel_peyre.jpg"
