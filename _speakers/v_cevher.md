@@ -7,6 +7,7 @@ description: Foundations of AI | Seminars | Warwick
 image_path: "/assets/img/volkan_cevher.jpg"
 
 ---
+# Adversarial Training Should Be Cast as a Non-Zero-Sum Game
 
 <div style="float: left; margin-right: 20px;">
     <img src="{{ site.baseurl }}/assets/img/volkan_cevher.jpg" alt="Volkan Cevher" style="width: 200px; height: auto;">
@@ -27,4 +28,4 @@ Our formulation naturally yields a simple algorithmic framework that matches and
 Volkan Cevher received the B.Sc. (valedictorian) in electrical engineering from Bilkent University in Ankara, Turkey, in 1999 and the Ph.D. in electrical and computer engineering from the Georgia Institute of Technology in Atlanta, GA in 2005. He was a Research Scientist with the University of Maryland, College Park, from 2006-2007 and also with Rice University in Houston, TX, from 2008-2009. He was also a Faculty Fellow in the Electrical and Computer Engineering Department at Rice University from 2010-2020. Currently, he is an Associate Professor at the Swiss Federal Institute of Technology Lausanne and an Amazon Scholar. His research interests include machine learning, optimization theory and methods, and automated control. Dr. Cevher is an IEEE Fellow (’24), an ELLIS fellow, and was the recipient of the ICML AdvML Best Paper Award in 2023, Google Faculty Research award in 2018, the IEEE Signal Processing Society Best Paper Award in 2016, a Best Paper Award at CAMSAP in 2015, a Best Paper Award at SPARS in 2009, and an ERC CG in 2016 as well as an ERC StG in 2011.
 
 
-[Slides](/assets/slides/v_cevher_slides.pdf)
+[Donwload Slides](/assets/slides/v_cevher_slides.pdf)
