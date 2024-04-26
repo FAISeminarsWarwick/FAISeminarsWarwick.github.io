@@ -6,7 +6,7 @@ position: Associate Professor, EPFL, Switzerland
 description: Foundations of AI | Seminars | Warwick
 ---
 
-# Adversarial Training Should Be Cast as a Non-Zero-Sum Game
+# Title: Adversarial Training Should Be Cast as a Non-Zero-Sum Game
 
 ![ ](/assets/img/volkan_cevher.jpg){: .img-fluid .rounded-circle .align-left}
 
