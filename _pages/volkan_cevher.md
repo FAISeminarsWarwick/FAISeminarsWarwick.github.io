@@ -3,7 +3,7 @@
 ![Volkan Cevher](/assets/img/volkan_cevher.jpg){: .img-fluid .rounded-circle .align-left}
 
 **Speaker:** Volkan Cevher  
-**Date:** 2024-04-26, 1pm-2pm (BST)
+**Date:** 26-04-2024, 1pm-2pm (BST)
 **Location:** Mathematical Sciences Building, MB0.07, University of Warwick, Coventry, UK 
 [Download iCalendar File](/assets/ics/event.ics)
 ## Abstract
