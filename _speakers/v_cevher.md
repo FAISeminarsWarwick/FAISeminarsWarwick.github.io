@@ -10,7 +10,7 @@ image_path: "/assets/img/volkan_cevher.jpg"
 # Adversarial Training Should Be Cast as a Non-Zero-Sum Game
 
 <div style="float: left; margin-right: 20px;">
-    <img src="assets/img/volkan_cevher.jpg" alt="Volkan Cevher" style="width: 200px; height: auto;">
+    <img src="/assets/img/volkan_cevher.jpg" alt="Volkan Cevher" style="width: 200px; height: auto;">
 </div>
 
 ## Abstract
