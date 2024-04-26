@@ -8,7 +8,7 @@ description: Foundations of AI | Seminars | Warwick
 
 # Title: Adversarial Training Should Be Cast as a Non-Zero-Sum Game
 
-![ ](/assets/img/volkan_cevher.jpg){: .img-fluid .rounded-circle .align-left}
+![Volkan Cevher](/assets/img/volkan_cevher.jpg){: .img-fluid .rounded-circle .align-left}
 
 ## Abstract
 
