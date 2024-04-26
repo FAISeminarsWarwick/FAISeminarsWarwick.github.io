@@ -8,6 +8,10 @@ image_path: "/assets/img/volkan_cevher.jpg"
 
 ---
 
+<div style="float: left; margin-right: 20px;">
+    <img src="{{ site.baseurl }}/assets/img/volkan_cevher.jpg" alt="Volkan Cevher" style="width: 200px; height: auto;">
+</div>
+
 ## Abstract
 
 One prominent approach toward resolving the adversarial vulnerability of deep neural networks is the two-player zero-sum paradigm of adversarial training, in which predictors are trained against adversarially-chosen perturbations of data. Despite the promise of this approach, algorithms based on this paradigm have not engendered sufficient levels of robustness and suffer from pathological behavior like robust overfitting.
