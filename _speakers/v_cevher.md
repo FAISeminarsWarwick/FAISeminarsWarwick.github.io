@@ -4,9 +4,8 @@ permalink: /speakers/v-cevher
 title: Volkan Cevher
 position: Associate Professor, EPFL, Switzerland
 description: Foundations of AI | Seminars | Warwick
-image_path: "/assets/img/volkan_cevher.jpg"
-
 ---
+
 # Adversarial Training Should Be Cast as a Non-Zero-Sum Game
 
 <div style="float: left; margin-right: 20px;">
