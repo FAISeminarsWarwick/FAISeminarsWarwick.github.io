@@ -3,6 +3,7 @@ layout: default  # this would be the name of the layout file you'd create for ev
 title: "TBD"
 date: 07-06-2024 13:00:00 -0000
 end_time: 07-06-2024 14:00:00 -0000
+time: 1:00PM
 speaker: "Mauricio Álvarez "
 speaker_position: "Senior Lecturer, Univ. of Manchester, UK"
 location: "TBD"
