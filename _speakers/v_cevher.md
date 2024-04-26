@@ -2,7 +2,7 @@
 layout: speaker
 permalink: /speakers/v-cevher
 title: Volkan Cevher
-position: Professor EPFL
+position: Associate Professor, EPFL, Switzerland
 description: Foundations of AI | Seminars | Warwick
 image_path: "/assets/img/volkan_cevher.jpg"
 
