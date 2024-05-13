@@ -11,36 +11,28 @@ layout: default
   </div> <!-- end div banner-->
   <hr class="banner-divider"> <!-- This is the line you're adding -->
 
- <section class="seminar-description">
+  <section class="seminar-description">
     <p>The Foundations of AI Seminar Series is dedicated to topics of interest in artificial intelligence, machine learning, both empirically and theoretically, as well as related areas. 
     Our goal is for these meetings to serve as a forum for discussions and quick dissemination of results. We invite anyone interested in the latest advancements in AI/ML to join us!</p>
   </section>
-
-
 </div> <!-- end div post-->
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
-
+<header class="post-header">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <p class="desc">{{ page.subtitle }}</p>
+</header>
 
 <div class="frame-style">
-
   <!-- Upcoming Talk Section -->
   <section class="upcoming-talk">
     <h2 class="talk-title">Next Seminar</h2>
- <!--   <p class="talk-date">{{ page.talk_date }}</p>
-    <hr style="border-top: 2px solid #bbb;"> 
-  -->
+    <!-- Content for the Next Seminar section goes here -->
   </section>
- 
-
+  
   <article>
     {% if page.speakers %}
       {% for speaker in page.speakers %}
         <hr>
-      
         <div class="clearfix">
           {% if speaker.content %}
             {% capture speaker_content %}{% include_relative {{ speaker.content }} %}{% endcapture %}
@@ -48,86 +40,81 @@ layout: default
           {% else %}
             {{ content }}
           {% endif %}
-        </div> <!-- end  div clearfix-->
+        </div> <!-- end div clearfix-->
       {% endfor %}
     {% endif %}
   </article>
-</div> <!-- end  div framestyle-->
+</div> <!-- end div framestyle-->
 
- <!-- Content of the section that you want to put in the frame -->
-
-
+<!-- Content of the section that you want to put in the frame -->
 <!-- Events Section -->
 <div class="post">
-<section class="upcoming-talk">
-  <h2 class="talk-title">Upcoming Events</h2>
- <hr style="border-top: 2px solid #bbb;"> 
-</section>
+  <section class="upcoming-talk">
+    <h2 class="talk-title">Upcoming Events</h2>
+    <hr style="border-top: 2px solid #bbb;"> 
+  </section>
 
-
-<section class="upcoming-events" style="padding-top: 20px;">
-  <div class="events">
-    {% for event in site.events %}
+  <section class="upcoming-events" style="padding-top: 20px;">
+    <div class="events">
+      {% for event in site.events %}
         {% if forloop.first %}
-        <div class="event-card highlighted-event">
+          <div class="event-card highlighted-event">
         {% else %}
-      <div class="event-card">
-   {% endif %}
-      <div class="event-card-header">
-        <img src="{{ event.calendar_icon | relative_url }}" alt="Calendar Icon" class="icon"> 
-        <span class="event-date-time">{{ event.date | date: "%b %d, %Y" }} at {{ event.time }}</span>
-      </div> <!-- end  div event-card-header-->
-      <div class="event-card-body">
-        <img src="{{ event.location_icon | relative_url }}" alt="Location Icon" class="icon"> 
-        <span class="event-location">{{ event.location }}</span>
-        <img src="{{ event.speaker_icon | relative_url }}" alt="Speaker Icon" class="icon"> 
-        <span class="event-speaker">{{ event.speaker}} - {{event.speaker_position }}</span>
-      </div> <!-- end  div event-card-body-->
-       {% if event.speaker_file %}
-       <a href="{{ site.baseurl }}/speakers/{{ event.speaker_file }}.html">More Info</a>
-    {% else %}
-        <a href="{{ event.link }}" class="event-link">More Info</a>
-    {% endif %}
-    </div>  <!-- end  div event-card-->
-    {% endfor %}
- </div>  <!-- end  div events-->
-</section>
-
+          <div class="event-card">
+        {% endif %}
+            <div class="event-card-header">
+              <img src="{{ event.calendar_icon | relative_url }}" alt="Calendar Icon" class="icon"> 
+              <span class="event-date-time">{{ event.date | date: "%b %d, %Y" }} at {{ event.time }}</span>
+            </div> <!-- end div event-card-header-->
+            <div class="event-card-body">
+              <img src="{{ event.location_icon | relative_url }}" alt="Location Icon" class="icon"> 
+              <span class="event-location">{{ event.location }}</span>
+              <img src="{{ event.speaker_icon | relative_url }}" alt="Speaker Icon" class="icon"> 
+              <span class="event-speaker">{{ event.speaker}} - {{event.speaker_position }}</span>
+            </div> <!-- end div event-card-body-->
+            {% if event.speaker_file %}
+              <a href="{{ site.baseurl }}/speakers/{{ event.speaker_file }}.html">More Info</a>
+            {% else %}
+              <a href="{{ event.link }}" class="event-link">More Info</a>
+            {% endif %}
+          </div>  <!-- end div event-card-->
+      {% endfor %}
+    </div>  <!-- end div events-->
+  </section>
+</div><!-- end div post-->
 
 <!-- Organising Team Section -->
 <section class="organising-team">
   <h2 class="section-title">Organising Team</h2>
   <div class="team-members">
     <!-- Team Member 1 -->
-    <div class="team-member"> <a href="https://warwick.ac.uk/fac/sci/dcs/people/fanghui_liu/">
-      <img src="assets/img/fanghui_liu.png" alt="Fanghui Liu" class="team-member-image">
-      <h3 class="team-member-name">Fanghui Liu</h3>
+    <div class="team-member">
+      <a href="https://warwick.ac.uk/fac/sci/dcs/people/fanghui_liu/">
+        <img src="assets/img/fanghui_liu.png" alt="Fanghui Liu" class="team-member-image">
+        <h3 class="team-member-name">Fanghui Liu</h3>
       </a>
       <p class="team-member-role">Assistant Professor, CS Department, University of Warwick</p>
     </div>
     <!-- Team Member 2 -->
-    <div class="team-member"> <a href="https://parisgiampouras.github.io">
-      <img src="assets/img/paris_giamp.jpg" alt="Paris Giampouras" class="team-member-image">
-      <h3 class="team-member-name">Paris Giampouras</h3>
+    <div class="team-member">
+      <a href="https://parisgiampouras.github.io">
+        <img src="assets/img/paris_giamp.jpg" alt="Paris Giampouras" class="team-member-image">
+        <h3 class="team-member-name">Paris Giampouras</h3>
       </a>
       <p class="team-member-role">Assistant Professor, CS Department, University of Warwick</p>
     </div>
     <!-- Team Member 3 -->
-    <div class="team-member">  <a href="https://human-agentlearning.github.io/index.html">
+    <div class="team-member">
+      <a href="https://human-agentlearning.github.io/index.html">
         <img src="assets/img/long.jpg" alt="Long Tran-Thanh" class="team-member-image">
+        <h3 class="team-member-name">Long Tran-Thanh</h3>
       </a>
-      <h3 class="team-member-name">Long Tran-Thanh</h3>
       <p class="team-member-role">Associate Professor, CS Department, University of Warwick</p>
     </div>
   </div>
 </section>
 
-</div><!-- end  div post-->
-
-
-  <article>
- 
-    <!-- Additional Sections (News, Latest Posts, Selected Papers, Social) -->
-    <!-- Content continues unchanged -->
-  </article>
-
+<article>
+  <!-- Additional Sections (News, Latest Posts, Selected Papers, Social) -->
+  <!-- Content continues unchanged -->
+</article>
