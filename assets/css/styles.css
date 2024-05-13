@@ -4,7 +4,7 @@
   padding: 2rem;
   font-family: 'Arial', sans-serif;
   /* If a max-width is needed, it should be the same for all event cards */
-  max-width: 1280px; 
+  max-width: 1280px;
 }
 
 
@@ -14,20 +14,28 @@
 
 /* Special styling for highlighted event link */
 .highlighted-event .event-link {
-   /* Shared styles for all event links */
-  margin-left: 1rem; /* Space before the link */
-  flex-shrink: 0; /* Prevents the link from shrinking */
-  background: #007bff; /* Background color for the link */
-  color: white; /* Text color for the link */
-  padding: 0.5rem 1rem; /* Padding inside the link */
-  border-radius: 5px; /* Rounded corners for the link */
-  text-decoration: none; /* Removes underline from the link */
+  /* Shared styles for all event links */
+  margin-left: 1rem;
+  /* Space before the link */
+  flex-shrink: 0;
+  /* Prevents the link from shrinking */
+  background: #007bff;
+  /* Background color for the link */
+  color: white;
+  /* Text color for the link */
+  padding: 0.5rem 1rem;
+  /* Padding inside the link */
+  border-radius: 5px;
+  /* Rounded corners for the link */
+  text-decoration: none;
+  /* Removes underline from the link */
 }
 
 /* Ensure the highlighted event styles do not conflict with the default link styles */
 .highlighted-event .event-link {
   /* If you want the exact same style as the default link, you might not need to change anything */
-  background: #007bff; /* Ensures background color matches other links */
+  background: #007bff;
+  /* Ensures background color matches other links */
   /* Rest of your styles */
 }
 
@@ -74,12 +82,18 @@
   text-align: center;
   padding: 2rem;
   margin-top: 2rem;
-  background: #f9f9f9; /* A neutral, clean background color */
-  border: 1px solid #eaeaea; /* Subtle border */
-  border-radius: 10px; /* Rounded corners for a soft look */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); /* Light text shadow for dimension */
-  background-image: linear-gradient(to bottom, #ffffff, #f9f9f9); /* Subtle gradient background */
+  background: #f9f9f9;
+  /* A neutral, clean background color */
+  border: 1px solid #eaeaea;
+  /* Subtle border */
+  border-radius: 10px;
+  /* Rounded corners for a soft look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  /* Soft shadow for depth */
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  /* Light text shadow for dimension */
+  background-image: linear-gradient(to bottom, #ffffff, #f9f9f9);
+  /* Subtle gradient background */
 }
 
 .section-title {
@@ -97,7 +111,7 @@
   background-color: #ffffff;
   padding: 1rem;
   border-radius: 10px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
 }
 
 .team-member-image {
@@ -124,10 +138,11 @@
   }
 }
 
-  
+
 .post {
-    /* This should be at least as wide as the .upcoming-events */
-  margin: 0 auto; /* Center it */
+  /* This should be at least as wide as the .upcoming-events */
+  margin: 0 auto;
+  /* Center it */
   /* Other styles as needed */
   max-width: 1200px;
 }
@@ -135,62 +150,96 @@
 /* ... other existing styles ... */
 .align-left {
   float: left;
-  margin-right: 20px; /* Adds some space between the image and the text */
+  margin-right: 20px;
+  /* Adds some space between the image and the text */
 }
 
 .banner-divider {
   border: none;
   height: 2px;
-  background-color: #333; /* Change the color to fit your design */
-  margin-top: 0; /* Adjust the space above the line */
-  margin-bottom: 20px; /* Adjust the space below the line */
+  background-color: #333;
+  /* Change the color to fit your design */
+  margin-top: 0;
+  /* Adjust the space above the line */
+  margin-bottom: 20px;
+  /* Adjust the space below the line */
 }
 
 .seminar-description {
-  padding: 2rem; /* Generous padding for a spacious feel */
-  margin-top: 2rem; /* Space above the section */
-  margin-bottom: 3rem; /* Space below the section */
-  font-size: 1.1rem; /* Slightly larger font size for readability */
-  line-height: 1.75; /* Increased line height for elegance */
-  text-align: center; /* Centered text often feels more formal */
-  max-width: 1200px; /* Controls the width of the text block */
-  margin-left: auto; /* Centers the block */
+  padding: 2rem;
+  /* Generous padding for a spacious feel */
+  margin-top: 2rem;
+  /* Space above the section */
+  margin-bottom: 3rem;
+  /* Space below the section */
+  font-size: 1.1rem;
+  /* Slightly larger font size for readability */
+  line-height: 1.75;
+  /* Increased line height for elegance */
+  text-align: center;
+  /* Centered text often feels more formal */
+  max-width: 1200px;
+  /* Controls the width of the text block */
+  margin-left: auto;
+  /* Centers the block */
   margin-right: auto;
-  background: #f9f9f9; /* A neutral, clean background color */
-  border: 1px solid #eaeaea; /* Subtle border */
-  border-radius: 10px; /* Rounded corners for a soft look */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); /* Light text shadow for dimension */
-  background-image: linear-gradient(to bottom, #ffffff, #f9f9f9); /* Subtle gradient background */
+  background: #f9f9f9;
+  /* A neutral, clean background color */
+  border: 1px solid #eaeaea;
+  /* Subtle border */
+  border-radius: 10px;
+  /* Rounded corners for a soft look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  /* Soft shadow for depth */
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  /* Light text shadow for dimension */
+  background-image: linear-gradient(to bottom, #ffffff, #f9f9f9);
+  /* Subtle gradient background */
 }
 
 
 
 .frame-style {
   align-items: center;
-  border: 1px solid #ccc; /* Light grey border */
-  padding: 20px; /* Spacing inside the frame */
-  max-width: 1200px; 
-  margin-bottom: 20px; /* Spacing outside the frame */
-  background-color: #f9f9f9; /* Light grey background */
-  border: 1px solid #eaeaea; /* Subtle border */
-  border-radius: 10px; /* Rounded corners for a soft look */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); /* Light text shadow for dimension */
-  background-image: linear-gradient(to bottom, #ffffff, #f9f9f9); /* Subtle gradient background */
+  border: 1px solid #ccc;
+  /* Light grey border */
+  padding: 20px;
+  /* Spacing inside the frame */
+  max-width: 1200px;
+  margin-bottom: 20px;
+  /* Spacing outside the frame */
+  background-color: #f9f9f9;
+  /* Light grey background */
+  border: 1px solid #eaeaea;
+  /* Subtle border */
+  border-radius: 10px;
+  /* Rounded corners for a soft look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  /* Soft shadow for depth */
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  /* Light text shadow for dimension */
+  background-image: linear-gradient(to bottom, #ffffff, #f9f9f9);
+  /* Subtle gradient background */
 }
 
 
 /* More Info Link Styling */
 .event-link {
   /* Shared styles for all event links */
-  margin-left: 1rem; /* Space before the link */
-  flex-shrink: 0; /* Prevents the link from shrinking */
-  background: #007bff; /* Background color for the link */
-  color: white; /* Text color for the link */
-  padding: 0.5rem 1rem; /* Padding inside the link */
-  border-radius: 5px; /* Rounded corners for the link */
-  text-decoration: none; /* Removes underline from the link */
+  margin-left: 1rem;
+  /* Space before the link */
+  flex-shrink: 0;
+  /* Prevents the link from shrinking */
+  background: #007bff;
+  /* Background color for the link */
+  color: white;
+  /* Text color for the link */
+  padding: 0.5rem 1rem;
+  /* Padding inside the link */
+  border-radius: 5px;
+  /* Rounded corners for the link */
+  text-decoration: none;
+  /* Removes underline from the link */
   /* Any other shared styles */
 }
 
@@ -198,31 +247,50 @@
 
 .event-card {
   display: flex;
-  align-items: center; /* Aligns items vertically */
-  justify-content: start; /* Distributes items to the start */
-  margin: 1.2rem auto; /* Space between cards and centering */
-  padding: 0.8rem; /* Padding inside the card */
+  align-items: center;
+  /* Aligns items vertically */
+  justify-content: start;
+  /* Distributes items to the start */
+  margin: 1.2rem auto;
+  /* Space between cards and centering */
+  padding: 0.8rem;
+  /* Padding inside the card */
   background-color: #f9f9f9;
-  border-left: 5px solid #007bff; /* Blue border color */
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  width: 100%; /* Ensure full width */
-  max-width: 1200px; /* Maximum width of the card */
-  box-sizing: border-box; /* Includes padding and border in the width */
+  border-left: 5px solid #007bff;
+  /* Blue border color */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  /* Ensure full width */
+  max-width: 1200px;
+  /* Maximum width of the card */
+  box-sizing: border-box;
+  /* Includes padding and border in the width */
 }
 
-.event-card-header,
+.event-card-header {
+  flex-direction: column-reverse;
+  /* Stack items vertically in reverse order */
+  align-items: flex-start;
+  /* Align items to the start horizontally */
+}
+
 .event-card-body {
-  flex: 1; /* Distributes width evenly */
+  flex: 1;
+  /* Distributes width evenly */
   display: flex;
-  align-items: center; /* Centers items vertically */
-  padding: 0 0.5rem; /* Padding for spacing inside */
+  align-items: center;
+  /* Centers items vertically */
+  padding: 0 0.5rem;
+  /* Padding for spacing inside */
 }
 
 .event-details {
   display: flex;
   align-items: center;
-  flex-grow: 1; /* Grow to use available space */
-  margin-right: 0.5rem; /* Adjusted space before the 'More Info' button */
+  flex-grow: 1;
+  /* Grow to use available space */
+  margin-right: 0.5rem;
+  /* Adjusted space before the 'More Info' button */
 }
 
 /* ... existing styles for .event-card .icon ... */
@@ -232,44 +300,95 @@
 .event-speaker {
   margin-right: 0.2rem;
   flex-grow: 1;
-  white-space: nowrap; /* Keeps text on a single line */
+  white-space: nowrap;
+  /* Keeps text on a single line */
   overflow: hidden;
   text-overflow: ellipsis;
-  min-height: 20px; /* Ensure uniform height */
+  min-height: 20px;
+  /* Ensure uniform height */
 }
 
 .event-card img {
-  width: 80px; /* Fixed width for images */
-  height: 80px; /* Fixed height for images */
+  width: 80px;
+  /* Fixed width for images */
+  height: 80px;
+  /* Fixed height for images */
   border-radius: 50%;
   object-fit: cover;
-  margin-right: 0.8rem; /* Adjusted space after the image */
-  margin-left: 0.8rem; /* Adjusted left margin to align images */
-  flex-shrink: 0; /* Prevents the image from shrinking */
+  margin-bottom: 0.8rem;
+  /* Adjusted space after the image */
+  margin-left: 0.8rem;
+  /* Adjusted left margin to align images */
+  flex-shrink: 0;
+  /* Prevents the image from shrinking */
 }
 
 /* ... existing styles for .event-link ... */
 
 @media (max-width: 768px) {
   .event-card {
-    flex-direction: column; /* Stack items vertically on small screens */
-    align-items: center; /* Center-align items for mobile layout */
+    flex-direction: column;
+    /* Stack items vertically on small screens */
+    align-items: center;
+    /* Center-align items for mobile layout */
   }
 
   .event-card-header,
   .event-card-body {
-    flex-direction: column; /* Stack items vertically inside the card */
-    align-items: center; /* Center-align items for mobile layout */
+    flex-direction: column;
+    /* Stack items vertically inside the card */
+    align-items: center;
+    /* Center-align items for mobile layout */
   }
 
   .event-card .icon {
-    margin-bottom: 0.5rem; /* Space below the icon on small screens */
+    margin-bottom: 0.5rem;
+    /* Space below the icon on small screens */
   }
-  
+
   .event-details {
-    margin-right: 0; /* Adjust margin for mobile view */
+    margin-right: 0;
+    /* Adjust margin for mobile view */
   }
 }
 
-/* ... other existing styles ... */
 
+.navbar {
+  background-color: #f8f9fa;
+  /* Background color */
+  color: #333;
+  /* Text color */
+  font-family: 'Arial', sans-serif;
+  /* Font style */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Shadow */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  /* Make brand text bold */
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  /* Text color for navbar links */
+  transition: color 0.3s;
+  /* Smooth transition */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+  /* Text color on hover */
+}
+
+.navbar-toggler {
+  border-color: #007bff;
+  /* Color of toggler icon */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  /* Custom toggler icon */
+}
+
+/* ... other existing styles ... */
