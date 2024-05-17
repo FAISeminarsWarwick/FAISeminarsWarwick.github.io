@@ -55,33 +55,40 @@ layout: default
   </section>
 
   <section class="upcoming-events" style="padding-top: 20px;">
-    <div class="events">
-      {% for event in site.events %}
-        {% if forloop.first %}
-          <div class="event-card highlighted-event">
-        {% else %}
-          <div class="event-card">
-        {% endif %}
-            <div class="event-card-header">
-              <img src="{{ event.calendar_icon | relative_url }}" alt="Calendar Icon" class="icon"> 
-              <span class="event-date-time">{{ event.date | date: "%b %d, %Y" }} at {{ event.time }}</span>
-            </div> <!-- end div event-card-header-->
-            <div class="event-card-body">
-              <img src="{{ event.location_icon | relative_url }}" alt="Location Icon" class="icon"> 
-              <span class="event-location">{{ event.location }}</span>
-              <img src="{{ event.speaker_icon | relative_url }}" alt="Speaker Icon" class="icon"> 
-              <span class="event-speaker">{{ event.speaker}} - {{event.speaker_position }}</span>
-            </div> <!-- end div event-card-body-->
-            {% if event.speaker_file %}
-              <a href="{{ site.baseurl }}/speakers/{{ event.speaker_file }}.html">More Info</a>
-            {% else %}
-              <a href="{{ event.link }}" class="event-link">More Info</a>
-            {% endif %}
-          </div>  <!-- end div event-card-->
-      {% endfor %}
-    </div>  <!-- end div events-->
-  </section>
-</div><!-- end div post-->
+  <div class="events">
+    {% for event in site.events %}
+      <div class="event-card {% if forloop.first %}highlighted-event{% endif %}">
+        <div class="event-image">
+          <img src="{{ event.speaker_icon | relative_url }}" alt="Speaker Image">
+        </div>
+        <div class="event-content">
+          <h2 class="event-title">{{ event.title }}</h2>
+          <div class="event-details">
+            <div class="event-speaker">
+              <span>{{ event.speaker }} - {{ event.speaker_position }}</span>
+            </div>
+            <div class="event-date">
+              <img src="{{ event.calendar_icon | relative_url }}" alt="Calendar Icon" class="icon">
+              <span>{{ event.date | date: "%b %d, %Y" }} at {{ event.time }}</span>
+            </div>
+            <div class="event-location">
+              <img src="{{ event.location_icon | relative_url }}" alt="Location Icon" class="icon">
+              <span>{{ event.location }}</span>
+            </div>
+          </div>
+          <div class="event-description">
+            <p>{{ event.description }}</p>
+          </div>
+          {% if event.speaker_file %}
+            <a href="{{ site.baseurl }}/speakers/{{ event.speaker_file }}.html" class="event-link">More Info</a>
+          {% else %}
+            <a href="{{ event.link }}" class="event-link">More Info</a>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
 
 <!-- Organising Team Section -->
 <section class="organising-team">
