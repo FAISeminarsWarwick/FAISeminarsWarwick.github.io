@@ -79,11 +79,11 @@ layout: default
           <div class="event-description">
             <p>{{ event.description }}</p>
           </div>
-          {% if event.speaker_file %}
-            <a href="{{ site.baseurl }}/speakers/{{ event.speaker_file }}.html" class="event-link">More Info</a>
-          {% else %}
-            <a href="{{ event.link }}" class="event-link">More Info</a>
-          {% endif %}
+        {% if event.speaker_file %}
+          <a href="{{ site.baseurl }}/speakers/{{ event.speaker_file }}.html" class="event-link">More Info</a>
+        {% else %}
+          <a href="{{ event.link }}" class="event-link">More Info</a>
+        {% endif %}
         </div>
       </div>
     {% endfor %}

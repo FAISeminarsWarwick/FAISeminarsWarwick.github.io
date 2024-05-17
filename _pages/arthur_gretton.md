@@ -1,11 +1,3 @@
----
-layout: speaker
-permalink: /speakers/a-gretton
-title: Arthur Gretton
-position: Professor, UCL, UK
-description: Foundations of AI | Seminars | Warwick
----
-
 # Causal Effect Estimation with Context and Confounders
 
 ![Arthur Gretton](/assets/img/agretton.jpg){: .img-fluid .rounded-circle .align-left}

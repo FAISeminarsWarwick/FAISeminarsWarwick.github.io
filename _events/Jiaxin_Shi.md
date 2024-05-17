@@ -1,17 +1,17 @@
 ---
 layout: default  # this would be the name of the layout file you'd create for events
-title: "TBD"
-date: 24-05-2024 13:00:00 -0000
-end_time: 24-05-2024 14:00:00 -0400
-time: 1:00pm
+title: "Spectral Methods and Generative Modeling: A Unifying Perspective"
+date: 24-05-2024 14:00:00 -0000
+end_time: 24-05-2024 15:00:00 -0400
+time: 2:00pm
 speaker: "Jiaxin Shi"
 speaker_position: "Research Scientist, DeepMind, UK"
-location: "TBD"
+location: "Mathematical Sciences Building, MB0.07, University of Warwick, Coventry, UK"
 calendar_icon: "/assets/img/calendar_icon.png"
 location_icon: "/assets/img/location_icon.png"
 speaker_icon: "/assets/img/jiaxin_shi.jpg"
 link: "https://faiseminarswarwick.github.io"
-speaker_file: j_shi
+speaker_file: j-shi
 ---
 
 
