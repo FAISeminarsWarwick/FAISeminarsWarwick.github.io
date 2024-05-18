@@ -1,14 +1,12 @@
----
-layout: speaker
-permalink: /speakers/j-shi
-title: Jiaxin Shi
-position: Research Scientist, DeepMind, UK
-description: Foundations of AI | Seminars | Warwick
----
-
 # Spectral Methods and Generative Modeling: A Unifying Perspective
 
-![Jiaxin Shi ](/assets/img/jiaxin_shi.jpg){: .img-fluid .rounded-circle .align-left}
+![Jiaxin Shi](/assets/img/jiaxin_shi.jpg){: .img-fluid .rounded-circle .align-left}
+
+**Speaker:** Jiaxin Shi (Deepmind)
+**Date:** 24-05-2024, 2pm-3pm (BST)
+**Location:** Mathematical Sciences Building, MB0.07, University of Warwick, Coventry, UK
+
+[Download iCalendar File](/assets/ics/event.ics)
 
 ## Abstract
 

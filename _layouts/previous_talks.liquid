@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}"> 
+
+<div class="post">
+  {% assign banner_image_path = 'assets/img/logo_fais.png' %}
+  <div class="banner">
+    <img src="{{ banner_image_path | relative_url }}" alt="Banner" class="img-fluid" style="max-width: 100%; height: auto;">
+  </div> <!-- end div banner-->
+  <hr class="banner-divider"> <!-- This is the line you're adding -->
+
+  <div class="frame-style">
+    <!-- Previous Talk Section -->
+    <section class="previous-talk">
+      <h2 class="talk-title">Previous Seminars</h2>
+      <!-- Content for the Previous Seminar section goes here -->
+    </section>
+
+    <section class="upcoming-events" style="padding-top: 20px;">
+      <div class="events">
+        {% for event in site.previous %}
+          <div class="event-card {% if forloop.first %}highlighted-event{% endif %}">
+            <div class="event-image">
+              <img src="{{ event.speaker_icon | relative_url }}" alt="Speaker Image">
+            </div>
+            <div class="event-content">
+              <h2 class="event-title">{{ event.title }}</h2>
+              <div class="event-details">
+                <div class="event-speaker">
+                  <span>{{ event.speaker }} - {{ event.speaker_position }}</span>
+                </div>
+                <div class="event-date">
+                  <img src="{{ event.calendar_icon | relative_url }}" alt="Calendar Icon" class="icon">
+                  <span>{{ event.date | date: "%b %d, %Y" }} at {{ event.time }}</span>
+                </div>
+                <div class="event-location">
+                  <img src="{{ event.location_icon | relative_url }}" alt="Location Icon" class="icon">
+                  <span>{{ event.location }}</span>
+                </div>
+              </div>
+              <div class="event-description">
+                <p>{{ event.description }}</p>
+              </div>
+              {% if event.speaker_file %}
+                <a href="{{ site.baseurl }}/speakers/{{ event.speaker_file }}.html" class="event-link">More Info</a>
+              {% else %}
+                <a href="{{ event.link }}" class="event-link">More Info</a>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+  </div>
+</div> <!-- end div post-->
