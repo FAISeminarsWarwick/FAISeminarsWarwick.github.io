@@ -4,8 +4,10 @@
 
 **Speaker:** Volkan Cevher  
 **Date:** 26-04-2024, 1pm-2pm (BST)
-**Location:** Mathematical Sciences Building, MB0.07, University of Warwick, Coventry, UK 
+**Location:** Mathematical Sciences Building, MB0.07, University of Warwick, Coventry, UK
+
 [Download iCalendar File](/assets/ics/event.ics)
+
 ## Abstract
 
 One prominent approach toward resolving the adversarial vulnerability of deep neural networks is the two-player zero-sum paradigm of adversarial training, in which predictors are trained against adversarially-chosen perturbations of data. Despite the promise of this approach, algorithms based on this paradigm have not engendered sufficient levels of robustness and suffer from pathological behavior like robust overfitting.

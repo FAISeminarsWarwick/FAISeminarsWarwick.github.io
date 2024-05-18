@@ -17,41 +17,9 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 ORGANIZER;CN="Giampouras, Paris":mailto:Paris.Giampouras@warwick.ac.uk
-DESCRIPTION:Speaker: Volkan Cevher\nDate: 2024-04-26\nLocation: Mathematica
- l Sciences Building\, MB0.07\, University of Warwick\, Coventry\, UK\nAbst
- ract\nOne prominent approach toward resolving the adversarial vulnerabilit
- y of deep neural networks is the two-player zero-sum paradigm of adversari
- al training\, in which predictors are trained against adversarially-chosen
-  perturbations of data. Despite the promise of this approach\, algorithms 
- based on this paradigm have not engendered sufficient levels of robustness
-  and suffer from pathological behavior like robust overfitting.\nTo unders
- tand this shortcoming\, we first show that the commonly used surrogate-bas
- ed relaxation used in adversarial training algorithms voids all guarantees
-  on the robustness of trained classifiers. The identification of this pitf
- all informs a novel non-zero-sum bilevel formulation of adversarial traini
- ng\, wherein each player optimizes a different objective function.\nOur fo
- rmulation naturally yields a simple algorithmic framework that matches and
-  in some cases outperforms state-of-the-art attacks\, attains comparable l
- evels of robustness to standard adversarial training algorithms\, and does
-  not suffer from robust overfitting.\n________________________________\nAb
- out Volkan Cevher\nVolkan Cevher received the B.Sc. (valedictorian) in ele
- ctrical engineering from Bilkent University in Ankara\, Turkey\, in 1999 a
- nd the Ph.D. in electrical and computer engineering from the Georgia Insti
- tute of Technology in Atlanta\, GA in 2005. He was a Research Scientist wi
- th the University of Maryland\, College Park\, from 2006-2007 and also wit
- h Rice University in Houston\, TX\, from 2008-2009. He was also a Faculty 
- Fellow in the Electrical and Computer Engineering Department at Rice Unive
- rsity from 2010-2020. Currently\, he is an Associate Professor at the Swis
- s Federal Institute of Technology Lausanne and an Amazon Scholar. His rese
- arch interests include machine learning\, optimization theory and methods\
- , and automated control. Dr. Cevher is an IEEE Fellow (’24)\, an ELLIS f
- ellow\, and was the recipient of the ICML AdvML Best Paper Award in 2023\,
-  Google Faculty Research award in 2018\, the IEEE Signal Processing Societ
- y Best Paper Award in 2016\, a Best Paper Award at CAMSAP in 2015\, a Best
-  Paper Award at SPARS in 2009\, and an ERC CG in 2016 as well as an ERC St
- G in 2011.\n\n
+DESCRIPTION:Speaker: Volkan Cevher\nDate: 2024-04-26\nLocation: Mathematical Sciences Building\, MB0.07\, University of Warwick\, Coventry\, UK\nAbstract\nOne prominent approach toward resolving the adversarial vulnerability of deep neural networks is the two-player zero-sum paradigm of adversarial training\, in which predictors are trained against adversarially-chosen perturbations of data. Despite the promise of this approach\, algorithms based on this paradigm have not engendered sufficient levels of robustness and suffer from pathological behavior like robust overfitting.\nTo understand this shortcoming\, we first show that the commonly used surrogate-based relaxation used in adversarial training algorithms voids all guarantees on the robustness of trained classifiers. The identification of this pitfall informs a novel non-zero-sum bilevel formulation of adversarial training\, wherein each player optimizes a different objective function.\nOur formulation naturally yields a simple algorithmic framework that matches and in some cases outperforms state-of-the-art attacks\, attains comparable levels of robustness to standard adversarial training algorithms\, and does not suffer from robust overfitting.\n________________________________\nAbout Volkan Cevher\nVolkan Cevher received the B.Sc. (valedictorian) in electrical engineering from Bilkent University in Ankara\, Turkey\, in 1999 and the Ph.D. in electrical and computer engineering from the Georgia Institute of Technology in Atlanta\, GA in 2005. He was a Research Scientist with the University of Maryland\, College Park\, from 2006-2007 and also with Rice University in Houston\, TX\, from 2008-2009. He was also a Faculty Fellow in the Electrical and Computer Engineering Department at Rice University from 2010-2020. Currently\, he is an Associate Professor at the Swiss Federal Institute of Technology Lausanne and an Amazon Scholar. His research interests include machine learning\, optimization theory and methods\, and automated control. Dr. Cevher is an IEEE Fellow (’24)\, an ELLIS fellow\, and was the recipient of the ICML AdvML Best Paper Award in 2023\, Google Faculty Research award in 2018\, the IEEE Signal Processing Society Best Paper Award in 2016\, a Best Paper Award at CAMSAP in 2015\, a Best Paper Award at SPARS in 2009\, and an ERC CG in 2016 as well as an ERC StG in 2011.\n\n
 UID:040000008200E00074C5B7101A82E008000000001DE3EE31A094DA01000000000000000
- 01000000070FE3FC3C2CFBC4B9BC78D79F05EDB89
+01000000070FE3FC3C2CFBC4B9BC78D79F05EDB89
 SUMMARY:Foundations of AI Seminars - Prof. Volkan Cevher\, EPFL
 DTSTART:20240426T120000Z
 DTEND:20240426T130000Z
@@ -71,6 +39,84 @@ X-MICROSOFT-ONLINEMEETINGCONFLINK:
 X-MICROSOFT-DONOTFORWARDMEETING:FALSE
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
 X-MICROSOFT-LOCATIONDISPLAYNAME:MB0.07
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Giampouras, Paris":mailto:Paris.Giampouras@warwick.ac.uk
+DESCRIPTION:Speaker: Jiaxin Shi (Deepmind)\nDate: 24-05-2024, 2pm-3pm (BST)\nLocation: Mathematical Sciences Building, MB0.07, University of Warwick, Coventry, UK\n\nAbstract\nI will give an overview of our recent work that connects two major directions in unsupervised learning—spectral methods and generative models. Historically, these two classes of methods are often considered separately. In this talk, I will show that it is possible to connect them through a spectral representation of the data distribution gradients. This motivates several promising ideas for unsupervised learning, including score-based modelling and self-supervised learning with eigenfunctions. I will discuss the statistical principles behind these developments such as Stein’s method, and how we can leverage them to extend such methods to challenging domains with discrete structures and other constraints.
+UID:040000008200E00074C5B7101A82E008000000001DE3EE31A094DA01000000000000000
+01000000070FE3FC3C2CFBC4B9BC78D79F05EDB89
+SUMMARY:Foundations of AI Seminars - Jiaxin Shi (Deepmind)
+DTSTART:20240524T130000Z
+DTEND:20240524T140000Z
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20240422T103151Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+LOCATION: MB0.07
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGEXTERNALLINK:
+X-MICROSOFT-ONLINEMEETINGCONFLINK:
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONDISPLAYNAME:MB0.07
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VEVENT
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:tzone://Microsoft/Utc
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN="Giampouras, Paris":mailto:Paris.Giampouras@warwick.ac.uk
+DESCRIPTION:Speaker: Arthur Gretton (Gatsby, UCL)\nDate: 05-06-2024, 2pm-3pm (BST)\nLocation: Zeeman Building, Mainsite, MS0.05, University of Warwick, Coventry, UK\n\nAbstract\nA fundamental causal modelling task is to predict the effect of an intervention (or treatment) on an outcome, given context/covariates. Examples include predicting the effect of a medical treatment on patient health given patient symptoms and demographic information, or predicting the effect of ticket pricing on airline sales given seasonal fluctuations in demand. The problem becomes especially challenging when the treatment and context are complex (for instance, "treatment" might be a web ad design or a radiotherapy plan), and when only observational data is available (i.e., we have access to historical data, but cannot intervene ourselves). The challenge is greater still when the covariates are not observed, and constitute a hidden source of confounding.\n\nI will give an overview of some practical tools and methods for estimating causal effects of complex, high dimensional treatments from observational data. The approach is based on conditional feature means, which represent conditional expectations of relevant model features. These features can be deep neural nets (adaptive, finite dimensional, learned from data), or kernel features (fixed, infinite dimensional, enforcing smoothness). When hidden confounding is present, a neural net implementation of instrumental variable regression can be used to correct for this confounding. The methods will be applied to modelling employment outcomes for the US Job Corps program for Disadvantaged Youth, and in policy evaluation for reinforcement learning.
+UID:040000008200E00074C5B7101A82E008000000001DE3EE31A094DA01000000000000000
+01000000070FE3FC3C2CFBC4B9BC78D79F05EDB89
+SUMMARY:Foundations of AI Seminars - Arthur Gretton (Gatsby, UCL)
+DTSTART:20240605T130000Z
+DTEND:20240605T140000Z
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20240422T103151Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+LOCATION:Zeeman Building, Mainsite, MS0.05
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGEXTERNALLINK:
+X-MICROSOFT-ONLINEMEETINGCONFLINK:
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONDISPLAYNAME:Zeeman Building, Mainsite, MS0.05
 BEGIN:VALARM
 DESCRIPTION:REMINDER
 TRIGGER;RELATED=START:-PT15M
