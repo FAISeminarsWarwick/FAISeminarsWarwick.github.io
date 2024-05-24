@@ -15,5 +15,3 @@ To enable closed form conditioning, a common assumption in Gaussian process (GP)
 ---
 
 ### About François-Xavier Briol
-
-François-Xavier Briol
