@@ -3,7 +3,7 @@ layout: page
 ---
 <div class="post">
   <article>
-    {% if page.upcoming_talks%}
+    {% if page.upcoming_talks %}
       {% for speaker in page.upcoming_talks %}
         <hr>
         <div class="upcoming_talks float-{% if speaker.align == 'left' %}left{% else %}right{% endif %}">

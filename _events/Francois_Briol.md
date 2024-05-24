@@ -1,5 +1,5 @@
 ---
-layout: default  # this would be the name of the layout file you'd create for events
+layout: default # this would be the name of the layout file you'd create for events
 title: "TBD"
 date: 31-05-2024 13:00:00 -0000
 time: 1:00pm
@@ -13,5 +13,3 @@ speaker_icon: "/assets/img/fxbriol.jpg"
 link: "https://faiseminarswarwick.github.io"
 speaker_file: f_briol
 ---
-
-

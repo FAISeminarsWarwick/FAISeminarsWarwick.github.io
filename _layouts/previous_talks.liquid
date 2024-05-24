@@ -1,15 +1,16 @@
 ---
 layout: default
 ---
-
-<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}"> 
+<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 
 <div class="post">
   {% assign banner_image_path = 'assets/img/logo_fais.png' %}
   <div class="banner">
     <img src="{{ banner_image_path | relative_url }}" alt="Banner" class="img-fluid" style="max-width: 100%; height: auto;">
-  </div> <!-- end div banner-->
-  <hr class="banner-divider"> <!-- This is the line you're adding -->
+  </div>
+  <!-- end div banner -->
+  <hr class="banner-divider">
+  <!-- This is the line you're adding -->
 
   <div class="frame-style">
     <!-- Previous Talk Section -->
@@ -33,7 +34,7 @@ layout: default
                 </div>
                 <div class="event-date">
                   <img src="{{ event.calendar_icon | relative_url }}" alt="Calendar Icon" class="icon">
-                  <span>{{ event.date | date: "%b %d, %Y" }} at {{ event.time }}</span>
+                  <span>{{ event.date | date: '%b %d, %Y' }} at {{ event.time }}</span>
                 </div>
                 <div class="event-location">
                   <img src="{{ event.location_icon | relative_url }}" alt="Location Icon" class="icon">
@@ -54,4 +55,5 @@ layout: default
       </div>
     </section>
   </div>
-</div> <!-- end div post-->
+</div>
+<!-- end div post -->
