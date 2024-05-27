@@ -11,6 +11,7 @@ speakers:
   # and create one content file for each profile inside _pages/
   - content: volkan_cevher.md
   - content: jiaxin_shi.md
+  - francois_briol.md
   - content: arthur_gretton.md
 
 news: false
