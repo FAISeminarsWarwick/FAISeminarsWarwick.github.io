@@ -11,10 +11,6 @@ description: Foundations of AI | Seminars | Warwick
 
 ![François-Xavier Briol](/assets/img/fxbriol.jpg){: .img-fluid .rounded-circle .align-left}
 
-**Speaker:** François-Xavier Briol (UCL)
-**Date:** 31-05-2024, 2pm-3pm (BST)
-**Location:** Mathematical Sciences Building, MB0.07, University of Warwick, Coventry, UK
-
 [Download iCalendar File](/assets/ics/event.ics)
 
 ## Abstract
