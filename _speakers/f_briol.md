@@ -9,7 +9,7 @@ description: Foundations of AI | Seminars | Warwick
 
 # Robust and conjugate Gaussian process regression
 
-![François-Xavier Briol](/assets/img/fxbriol.jpg){: .img-fluid .rounded-circle .align-left width:"300px"}
+![François-Xavier Briol](/assets/img/fxbriol.jpg){: .img-fluid .rounded-circle .align-left width="300px"}
 
 [Download iCalendar File](/assets/ics/event.ics)
 
