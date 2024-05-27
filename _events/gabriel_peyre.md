@@ -1,6 +1,6 @@
 ---
 layout: default # this would be the name of the layout file you'd create for events
-title: "TBD"
+title: "Conservation Laws for Gradient Flows"
 date: 14-06-2024 13:00:00 -0000
 end_time: 14-06-2024 14:00:00 -0000
 time: 1:00pm
