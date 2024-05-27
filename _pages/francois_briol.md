@@ -1,4 +1,4 @@
-# Robust and conjugate Gaussian process regression
+# Robust and Conjugate Gaussian Process Regression
 
 ![François-Xavier Briol](/assets/img/fxbriol.jpg){: .img-fluid .rounded-circle .align-left, width="300px"}
 
