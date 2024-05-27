@@ -1,6 +1,6 @@
 ---
 layout: default # this would be the name of the layout file you'd create for events
-title: "TBD"
+title: "Robust and Conjugate Gaussian Process Regression"
 date: 31-05-2024 13:00:00 -0000
 time: 2:00pm
 end_time: 31-05-2024 14:00:00 -0000
