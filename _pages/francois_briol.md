@@ -1,6 +1,6 @@
 # Robust and Conjugate Gaussian Process Regression
 
-![François-Xavier Briol](/assets/img/fxbriol.jpg){: .img-fluid .rounded-circle .align-left}
+![François-Xavier Briol](/assets/img/fxbriol.jpg){: .img-fluid .rounded-circle .align-left width="300px"}
 
 **Speaker:** François-Xavier Briol (UCL)
 **Date:** 31-05-2024, 2pm-3pm (BST)
