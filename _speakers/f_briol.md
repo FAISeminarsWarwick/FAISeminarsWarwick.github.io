@@ -1,3 +1,12 @@
+---
+layout: speaker
+permalink: /speakers/f_briol
+title: François-Xavier Briol
+position: Associate Professor, UCL, UK
+description: Foundations of AI | Seminars | Warwick
+---
+
+
 # Robust and conjugate Gaussian process regression
 
 ![François-Xavier Briol](/assets/img/fxbriol.jpg){: .img-fluid .rounded-circle .align-left}
