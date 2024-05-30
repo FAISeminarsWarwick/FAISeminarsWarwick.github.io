@@ -80,7 +80,7 @@ bundle exec jekyll serve
 
 ### 6. Access the Local Server
 
-Open your web browser and navigate to <http://localhost:4000> (the port number may vary based on the setup). You should see the website running locally.
+Open your web browser and navigate to "localhost:4000" (the port number may vary based on the setup). You should see the website running locally.
 
 **PS:** If this does not work, please set up [Jekyll Server.](install_server.md)
 
