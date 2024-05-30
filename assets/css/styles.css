@@ -315,6 +315,17 @@
   margin-bottom: 1.5rem;
 }
 
+/* Add this to your assets/css/styles.css file */
+.event-note {
+  font-weight: bold;
+  font-size: 1.1em;
+  /* Adjust the size as needed */
+  color: #d9534f;
+  /* Bootstrap danger color, or choose another noticeable color */
+  padding: 5px;
+  border-radius: 5px;
+}
+
 /* More Info Link Styling */
 .event-link {
   background-color: #007bff;
