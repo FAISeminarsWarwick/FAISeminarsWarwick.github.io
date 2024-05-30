@@ -3,7 +3,7 @@ layout: default # this would be the name of the layout file you'd create for eve
 title: "TBD"
 date: 19-06-2024 15:00:00 -0000
 end_time: 19-06-2024 16:00:00 -0000
-time: 1:00PM
+time: 3:00PM
 speaker: "René Vidal" 
 speaker_position: "Rachleff University Professor, University of Pennsylvania, USA"
 location: "MB0.07"
