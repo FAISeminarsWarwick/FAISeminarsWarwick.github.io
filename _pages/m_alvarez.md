@@ -1,4 +1,4 @@
-# Non-linear latent force models
+# Non-linear Latent Force Models
 
 ![Mauricio Alvarez](/assets/img/malvarez.jpg){: .img-fluid .rounded-circle .align-left}
 
