@@ -123,4 +123,53 @@ TRIGGER;RELATED=START:-PT15M
 ACTION:DISPLAY
 END:VALARM
 END:VEVENT
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:tzone://Microsoft/Utc
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN="Giampouras, Paris":mailto:Paris.Giampouras@warwick.ac.uk
+DESCRIPTION:Speaker: Francis Bach \nDate: 18-06-2024, 11am-12pm (BST)\nLocation: Mathematical Sciences Building, MB0.07, University of Warwick, Coventry, UK\n\nAbstract\nA Physics-informed machine learning combines the expressiveness of data-based approaches with the interpretability of physical models. In this context, we consider a general regression problem where the empirical risk is regularized by a partial differential equation that quantifies the physical inconsistency. We prove that for linear differential priors, the problem can be formulated as a kernel regression task. Taking advantage of kernel theory, we derive convergence rates for the minimizer of the regularized risk and show that it converges at least at the Sobolev minimax rate. However, faster rates can be achieved, depending on the physical error.
+UID:040000008200E00074C5B7101A82E008000000001DE3EE31A094DA01000000000000000
+01000000070FE3FC3C2CFBC4B9BC78D79F05EDB89
+SUMMARY:Foundations of AI Seminars - Francis Bach
+DTSTART:20240618T110000Z
+DTEND:20240618T120000Z
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20240422T103151Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+LOCATION:MB0.07
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGEXTERNALLINK:
+X-MICROSOFT-ONLINEMEETINGCONFLINK:
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONDISPLAYNAME:MB0.07
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+
 END:VCALENDAR
+
