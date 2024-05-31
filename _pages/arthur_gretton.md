@@ -4,7 +4,7 @@
 
 **Speaker:** Arthur Gretton (Gatsby, UCL)
 **Date:** This talk will be rescheduled
-**Location:** Zeeman Building, Mainsite, MS0.05, University of Warwick, Coventry, UK
+**Location:** TBD
 
 [Download iCalendar File](/assets/ics/event.ics)
 
