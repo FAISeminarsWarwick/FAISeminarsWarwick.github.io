@@ -3,10 +3,10 @@ layout: speaker
 permalink: /speakers/f-bach
 title: Francis Bach
 position: Researcher at Inria
-description: Foundations of AI | Seminars | Warwick
+description: Foundations of AI | Seminars | Warwicks
 ---
 
-# Robust and conjugate Gaussian process regression
+# Physics-informed Machine Learning as a Kernel Method
 
 ![Francis Bach](/assets/img/Francis-Bach.jpg){: .img-fluid .rounded-circle .align-left width="300px"}
 
