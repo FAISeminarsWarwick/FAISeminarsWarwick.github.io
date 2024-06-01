@@ -11,5 +11,5 @@ calendar_icon: "/assets/img/calendar_icon.png"
 location_icon: "/assets/img/location_icon.png"
 speaker_icon: "/assets/img/malvarez.jpg"
 link: "https://faiseminarswarwick.github.io"
-speaker_file: m_alvarez
+speaker_file: m-alvarez
 ---
