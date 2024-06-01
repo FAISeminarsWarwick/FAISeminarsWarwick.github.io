@@ -11,5 +11,5 @@ calendar_icon: "/assets/img/calendar_icon.png"
 location_icon: "/assets/img/location_icon.png"
 speaker_icon: "/assets/img/gabriel_peyre.jpg"
 link: "https://faiseminarswarwick.github.io"
-speaker_file: g_peyre
+speaker_file: g-peyre
 ---
