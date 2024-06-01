@@ -1,4 +1,10 @@
-
+---
+layout: speaker
+permalink: /speakers/g-peyre
+title:Gabriel Peyre
+position: ACNRS Researcher, DMA/ENS, France
+description: Foundations of AI | Seminars | Warwick
+---
 
 
 # Conservation Laws for Gradient Flows
