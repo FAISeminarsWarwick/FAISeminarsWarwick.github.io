@@ -23,7 +23,7 @@ The associated paper can be found here: https://arxiv.org/pdf/2307.00144
 
 ---
 
-### Abstract 
+### Abstract [Gabriel Peyre](https://www.gpeyre.com)
 
 Gabriel Peyré is CNRS senior researcher and professor at the Ecole Normale Supérieure, Paris. He works at the interface between applied mathematics, imaging and machine learning. He obtained 2 ERC grants (starting in 2010 and consolidator in 2017), the Blaise Pascal prize from the French academy of sciences in 2017, the Magenes Prize from the Italian Mathematical Union in 2019 and the silver medal from CNRS in 2021. He is invited speaker at the European Congress for Mathematics in 2020. He is the deputy director of the Prairie Institute for artificial intelligence, the director of the ENS center for data science and the former director of the GdR CNRS MIA. He is the head of the ELLIS (European Lab for Learning & Intelligent Systems) Paris Unit. He is engaged in reproducible research and code education, in particular through the platform www.numerical-tours.com.
 
