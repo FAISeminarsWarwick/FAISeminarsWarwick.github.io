@@ -1,6 +1,6 @@
 # Non-linear Latent Force Models
 
-![Mauricio Alvarez](/assets/img/malvarez.jpg){: .img-fluid .rounded-circle .align-left}
+![Mauricio Alvarez](/assets/img/malvarez.jpg){: .img-fluid .rounded-circle .align-left width="300px"}
 
 **Speaker:** Mauricio A. Álvarez  (University of Manchester)
 **Date:** 3pm, June 7th, 2024
