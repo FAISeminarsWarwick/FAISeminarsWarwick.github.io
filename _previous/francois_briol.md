@@ -13,5 +13,3 @@ speaker_icon: "/assets/img/fxbriol.jpg"
 link: "https://faiseminarswarwick.github.io"
 speaker_file: f-briol
 ---
-
-
