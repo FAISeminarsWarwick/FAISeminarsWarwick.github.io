@@ -1,0 +1,15 @@
+---
+layout: default # this would be the name of the layout file you'd create for events
+title: "TBD"
+date: 11-10-2024 14:00:00 -0000
+end_time: 11-10-2024 15:00:00 -0000
+time: 2:00PM
+speaker: "Ilija Bogunovic "
+speaker_position: " Assistant Professor, UCL, UK"
+location: "TBD"
+calendar_icon: "/assets/img/calendar_icon.png"
+location_icon: "/assets/img/location_icon.png"
+speaker_icon: "/assets/img/Ilija.jpg"
+link: "https://faiseminarswarwick.github.io"
+speaker_file: I-bogunovic
+---

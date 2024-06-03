@@ -1,7 +1,7 @@
 ---
 layout: speaker
 permalink: /speakers/w-su
-title:  Weijie Su
+title: Weijie Su
 position: Professor, University of Pennsylvania
 description: Foundations of AI | Seminars | Warwick
 ---
