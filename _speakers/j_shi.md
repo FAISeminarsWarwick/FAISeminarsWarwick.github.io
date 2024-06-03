@@ -17,7 +17,7 @@ representation of the data distribution gradients. This motivates several promis
 
 ---
 
-### About Jiaxin Shi
+### About [Jiaxin Shi](https://jiaxins.io/)
 
 Jiaxin Shi is a research scientist at Google DeepMind. Previously, he was a postdoctoral researcher at Stanford and Microsoft Research New England. He obtained B.E. and Ph.D. from Tsinghua University, advised by Jun Zhu. His research interests broadly involve probabilistic and algorithmic models for
 learning as well as the interface between them. Jiaxin served as an area chair for NeurIPS and AISTATS. He is a recipient of Microsoft Research PhD fellowship. His first-author paper was recognized by a NeurIPS 2022 outstanding paper award.

@@ -18,6 +18,6 @@ To enable closed form conditioning, a common assumption in Gaussian process (GP)
 
 ---
 
-### About François-Xavier Briol
+### About [François-Xavier Briol](https://fxbriol.github.io/)
 
 Dr Francois-Xavier (F-X) Briol is an Associate Professor in the Department of Statistical Science at University College London, where he co-leads the Fundamentals of Statistical Machine Learning research group. His research focuses on building statistical and machine learning methods which enable the use of large-scale models in the physical, environmental and engineering sciences.
