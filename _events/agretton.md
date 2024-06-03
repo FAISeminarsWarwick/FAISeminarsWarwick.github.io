@@ -1,8 +1,8 @@
 ---
-layout: speaker # this would be the name of the layout file you'd create for events
+layout: speaker
 title: "Causal Effect Estimation with Context and Confounders"
-date: 01-10-2024 14:00:00 -0000
-end_time: 01-10-2024 15:00:00 -0000
+date: 1970-01-01 00:00:00
+end_time: 
 time: 2:00pm
 speaker: "Arthur Gretton"
 note: "*** This talk will be rescheduled. ***"
@@ -13,4 +13,6 @@ location_icon: "/assets/img/location_icon.png"
 speaker_icon: "/assets/img/agretton.jpg"
 link: "https://faiseminarswarwick.github.io"
 speaker_file: a-gretton
+hide_time: true
+date_tbd: true
 ---
