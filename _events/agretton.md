@@ -1,7 +1,7 @@
 ---
 layout: speaker
 title: "Causal Effect Estimation with Context and Confounders"
-date: 2024-11-01 00:00:00
+date: 01-11-2024 00:00:00
 end_time:
 time: 2:00pm
 speaker: "Arthur Gretton"
