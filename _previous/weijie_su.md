@@ -1,5 +1,5 @@
 ---
-layout: previous # this would be the name of the layout file you'd create for events
+layout: previous_talks # this would be the name of the layout file you'd create for events
 title: "Addressing Bias and Copyright in Generative AI: Preference Matching and Fair Compensation"
 date: 10-06-2024 14:00:00 -0000
 time: 2:00 pm
