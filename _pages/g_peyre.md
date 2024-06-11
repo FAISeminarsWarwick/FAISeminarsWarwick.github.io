@@ -1,6 +1,6 @@
 # Conservation Laws for Gradient Flows
 
-![Gabriel Peyre](/assets/img/gabriel_peyre.jpg){: .img-fluid .rounded-circle .align-left}
+![Gabriel Peyre](/assets/img/gabriel_peyre.jpg){: .img-fluid .rounded-circle .align-left width="300px"}
 
 **Speaker:** Gabriel Peyre (CNRS Researcher, DMA/ENS, France)
 **Date:** 2pm, June 14th, 2024
