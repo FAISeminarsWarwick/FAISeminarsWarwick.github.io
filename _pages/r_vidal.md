@@ -1,7 +1,7 @@
 
 # Learning Dynamics of Overparametrized Neural Networks
 
-![René Vidal](/assets/img/rene_vidal.jpg){: .img-fluid .rounded-circle .align-left width="300px"}
+![René Vidal](/assets/img/rvidal.jpg){: .img-fluid .rounded-circle .align-left width="300px"}
 
 ## Abstract
 
