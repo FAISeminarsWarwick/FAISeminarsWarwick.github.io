@@ -1,6 +1,6 @@
 ---
 layout: default # this would be the name of the layout file you'd create for events
-title: "TBD"
+title: "Learning Dynamics of Overparametrized Neural Networks"
 date: 19-06-2024 15:00:00 -0000
 end_time: 19-06-2024 16:00:00 -0000
 time: 3:00PM
