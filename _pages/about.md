@@ -9,7 +9,7 @@ nav_order: 1
 speakers:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
-  - content: g_peyre.md
+  - content: francis_bach
 
 news: false
 social: true
