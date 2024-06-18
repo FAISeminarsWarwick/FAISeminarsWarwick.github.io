@@ -1,4 +1,3 @@
-
 ---
 layout: previous_talks # this would be the name of the layout file you'd create for events
 title: "Physics-informed machine learning as a kernel method"
