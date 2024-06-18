@@ -3,6 +3,10 @@
 
 ![René Vidal](/assets/img/rvidal.jpg){: .img-fluid .rounded-circle .align-left width="300px"}
 
+**Speaker:** René Vidal (UPenn)
+**Date:** 19-06-2024, 2pm-3pm (BST)
+**Location:** Computer Science Building, CS1.04, University of Warwick, Coventry, UK
+
 ## Abstract
 
 This talk will provide a detailed analysis of the dynamics of gradient based methods in overparameterized models. For linear networks, we show that the weights converge to an equilibrium at a linear rate that depends on the imbalance between input and output weights (which is fixed at initialization) and the margin of the initial solution. For ReLU networks, we show that the dynamics has a feature learning phase, where neurons collapse to one of the class centers, and a classifier learning phase, where the loss converges to zero at a rate 1/t.
