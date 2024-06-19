@@ -4,7 +4,7 @@
 ![René Vidal](/assets/img/rvidal.jpg){: .img-fluid .rounded-circle .align-left width="300px"}
 
 **Speaker:** René Vidal (UPenn)
-**Date:** 19-06-2024, 2pm-3pm (BST)
+**Date:** 19-06-2024, 3pm-4pm (BST)
 **Location:** Computer Science Building, CS1.04, University of Warwick, Coventry, UK
 
 ## Abstract
