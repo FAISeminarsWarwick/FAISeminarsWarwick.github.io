@@ -21,6 +21,3 @@ This talk will provide a detailed analysis of the dynamics of gradient based met
 René Vidal, a global pioneer of data science, is the Rachleff University Professor, with joint appointments in the Department of Radiology in the Perelman School of Medicine and the Department of Electrical and Systems Engineering in the School of Engineering and Applied Science. Dr. Vidal has been named a Penn Integrates Knowledge University Professor at the University of Pennsylvania.
 
 René Vidal received his B.S. degree in Electrical Engineering (highest honors) from the Pontificia Universidad Catolica de Chile in 1997 and his M.S. and Ph.D. degrees in Electrical Engineering and Computer Sciences from the University of California at Berkeley in 2000 and 2003, respectively. He was a research fellow at the National ICT Australia in 2003 and joined The Johns Hopkins University in 2004 as a faculty member in the Department of Biomedical Engineering and the Center for Imaging Science.
-
-
-

@@ -1,6 +1,6 @@
 # Title: Addressing Bias and Copyright in Generative AI: Preference Matching and Fair Compensation
 
-![Weijie Su](/assets/img/WeijieSu.jpg){: .img-fluid .rounded-circle .align-left  width="300px"}
+![Weijie Su](/assets/img/WeijieSu.jpg){: .img-fluid .rounded-circle .align-left width="300px"}
 
 **Speaker:** Weijie Su
 **Date:** 10-06-2024, 2pm - 3pm (BST)
