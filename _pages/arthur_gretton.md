@@ -3,7 +3,7 @@
 ![Arthur Gretton](/assets/img/agretton.jpg){: .img-fluid .rounded-circle .align-left}
 
 **Speaker:** Arthur Gretton (Gatsby, UCL)
-**Date:** This talk will be rescheduled
+**Date:** 15-10-2024, 2pm-3pm (BST)
 **Location:** TBD
 
 [Download iCalendar File](/assets/ics/event.ics)
@@ -16,7 +16,7 @@ I will give an overview of some practical tools and methods for estimating causa
 
 ---
 
-### About Arthur Gretton
+### About [Arthur Gretton](https://www.gatsby.ucl.ac.uk/~gretton/)
 
 Arthur Gretton is a Professor with the Gatsby Computational Neuroscience Unit, and director of the Centre for Computational Statistics and Machine Learning (CSML) at UCL; and a research scientist at Google Deepmind. His recent research interests include causal inference and representation learning, design and training of generative models, and nonparametric hypothesis testing.
 
