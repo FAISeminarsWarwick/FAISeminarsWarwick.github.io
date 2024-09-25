@@ -12,7 +12,7 @@ description: Foundations of AI | Seminars | Warwick
 
 **Speaker:** Arthur Gretton (Gatsby, UCL)
 **Date:** 15-10-2024, 2pm-3pm (BST)
-**Location:** Zeeman Building, Mainsite, MS0.05, University of Warwick, Coventry, UK
+**Location:** Zeeman Building, Mainsite, MS0.03, University of Warwick, Coventry, UK
 
 [Download iCalendar File](/assets/ics/event.ics)
 

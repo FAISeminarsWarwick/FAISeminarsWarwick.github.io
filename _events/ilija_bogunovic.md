@@ -6,7 +6,7 @@ end_time: 22-10-2024 15:00:00 -0000
 time: 2:00PM
 speaker: "Ilija Bogunovic "
 speaker_position: " Assistant Professor, UCL, UK"
-location: "TBD"
+location: "Department of Computer Science, CS1.04,  University of Warwick, Coventry, UK"
 calendar_icon: "/assets/img/calendar_icon.png"
 location_icon: "/assets/img/location_icon.png"
 speaker_icon: "/assets/img/Ilija.jpg"
