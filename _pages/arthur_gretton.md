@@ -4,7 +4,7 @@
 
 **Speaker:** Arthur Gretton (Gatsby, UCL)
 **Date:** 15-10-2024, 2pm-3pm (BST)
-**Location:** TBD
+**Location:** Zeeman building, MS.03, University of Warwick, Coventry, UK
 
 [Download iCalendar File](/assets/ics/event.ics)
 
