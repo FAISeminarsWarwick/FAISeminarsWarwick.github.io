@@ -1,8 +1,8 @@
 ---
 layout: default # this would be the name of the layout file you'd create for events
-title: "TBD"
-date: 22-10-2024 14:00:00 -0000
-end_time: 22-10-2024 15:00:00 -0000
+title: "Robust and Efficient AI Alignment"
+date: 25-01-2025 14:00:00 -0000
+end_time: 25-01-2025 15:00:00 -0000
 time: 2:00PM
 speaker: "Ilija Bogunovic "
 speaker_position: " Assistant Professor, UCL, UK"
