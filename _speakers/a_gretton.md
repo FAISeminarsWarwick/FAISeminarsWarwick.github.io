@@ -14,8 +14,6 @@ description: Foundations of AI | Seminars | Warwick
 **Date:** 15-10-2024, 2pm-3pm (BST)
 **Location:** Zeeman Building, Mainsite, MS0.03, University of Warwick, Coventry, UK
 
-[Download iCalendar File](/assets/ics/event.ics)
-
 ## Abstract
 
 A fundamental causal modelling task is to predict the effect of an intervention (or treatment) on an outcome, given context/covariates. Examples include predicting the effect of a medical treatment on patient health given patient symptoms and demographic information, or predicting the effect of ticket pricing on airline sales given seasonal fluctuations in demand. The problem becomes especially challenging when the treatment and context are complex (for instance, "treatment" might be a web ad design or a radiotherapy plan), and when only observational data is available (i.e., we have access to historical data, but cannot intervene ourselves). The challenge is greater still when the covariates are not observed, and constitute a hidden source of confounding.

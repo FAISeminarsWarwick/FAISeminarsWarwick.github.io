@@ -1,7 +1,7 @@
 # Robust and Efficient AI Alignment
 
 **Speaker:** Ilija Bogunovic (Assistant Professor, UCL, UK)
-**Date:** 25-01-2025, 2pm-3pm (BST)
+**Date:** 22-10-2024, 2pm-3pm (BST)
 **Location:** Department of Computer Science, CS1.04, University of Warwick, Coventry, UK
 
 ![Ilija Bogunovic](/assets/img/Ilija.jpg){: .img-fluid .rounded-circle .align-left}

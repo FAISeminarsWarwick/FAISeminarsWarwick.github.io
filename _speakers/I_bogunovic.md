@@ -7,8 +7,8 @@ description: Foundations of AI | Seminars | Warwick
 ---
 
 **Speaker:** Ilija Bogunovic (Assistant Professor, UCL, UK)
-**Date:** 25-01-2025, 2pm-3pm (BST)
-**Location:** Department of Computer Science, University of Warwick, Coventry, UK
+**Date:** 22-10-2024, 2pm-3pm (BST)
+**Location:** Department of Computer Science, CS1.04, University of Warwick, Coventry, UK
 
 # Robust and Efficient AI Alignment
 

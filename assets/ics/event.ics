@@ -17,18 +17,18 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 ORGANIZER;CN="Giampouras, Paris":mailto:Paris.Giampouras@warwick.ac.uk
-DESCRIPTION:Speaker: Prof. Arthur Gretton\nDate: 2024-10-15\nAbstract\A fundamental causal modelling task is to predict the effect of an intervention (or treatment) on an outcome, given context/covariates. Examples include predicting the effect of a medical treatment on patient health given patient symptoms and demographic information, or predicting the effect of ticket pricing on airline sales given seasonal fluctuations in demand. The problem becomes especially challenging when the treatment and context are complex (for instance, “treatment” might be a web ad design or a radiotherapy plan), and when only observational data is available (i.e., we have access to historical data, but cannot intervene ourselves). The challenge is greater still when the covariates are not observed, and constitute a hidden source of confounding. I will give an overview of some practical tools and methods for estimating causal effects of complex, high dimensional treatments from observational data. The approach is based on conditional feature means, which represent conditional expectations of relevant model features. These features can be deep neural nets (adaptive, finite dimensional, learned from data), or kernel features (fixed, infinite dimensional, enforcing smoothness). When hidden confounding is present, a neural net implementation of instrumental variable regression can be used to correct for this confounding. The methods will be applied to modelling employment outcomes for the US Job Corps program for Disadvantaged Youth, and in policy evaluation for reinforcement learning.\n\n
+DESCRIPTION:Speaker: Ilija Bogunovic\nDate: 2024-10-22\nAbstract\Aligning large language models (LLMs) with human values, ethical principles, and user intentions is critical to building AI systems like ChatGPT that drive transformative, human-centric progress. It is also a key step toward ensuring the sustainable and safe development of artificial general intelligence (AGI) that genuinely benefits humanity. Reinforcement learning from human feedback (RLHF) has become the leading method for fine-tuning LLMs, optimizing their responses by using human preferences to guide their behavior. However, RLHF faces pressing challenges—namely, inefficient data use and an overly simplified approach to the complex, pluralistic nature of human societies. RLHF-tuned models frequently exhibit bias, favoring majority perspectives while overlooking minority voices, highlighting the need for principled algorithms that address these shortcomings. In this talk, we present innovative, efficient, and pluralistic alignment algorithms that outperform standard RLHF methods. Our approach tackles data acquisition inefficiencies, improves bias resilience, and aligns LLMs with a wider range of human perspectives. By integrating RLHF with sequential decision-making frameworks, we significantly boost data efficiency and develop algorithms capable of navigating the complexities of aligning LLMs with diverse societal values. We showcase our algorithms' effectiveness in fine-tuning popular LLM models.\n\n
 UID:040000008200E00074C5B7101A82E008000000001DE3EE31A094DA01000000000000000
 01000000070FE3FC3C2CFBC4B9BC78D79F05EDB89
-SUMMARY:Foundations of AI Seminars - Mauricio A. Álvarez 
-DTSTART:20241015T140000Z
-DTEND:20241015T150000Z
+SUMMARY:Foundations of AI Seminars - Ilija Bogunovic 
+DTSTART:20241022T140000Z
+DTEND:20241022T150000Z
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20241015T103151Z
+DTSTAMP:20241022T103151Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-LOCATION:MB0.07
+LOCATION:CS1.04
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
 X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
@@ -38,10 +38,10 @@ X-MICROSOFT-ONLINEMEETINGEXTERNALLINK:
 X-MICROSOFT-ONLINEMEETINGCONFLINK:
 X-MICROSOFT-DONOTFORWARDMEETING:FALSE
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MICROSOFT-LOCATIONDISPLAYNAME:MB0.07
+X-MICROSOFT-LOCATIONDISPLAYNAME:CS1.04
 BEGIN:VALARM
 DESCRIPTION:REMINDER
-TRIGGER;RELATED=START:-PT15M
+TRIGGER;RELATED=START:-PT14M
 ACTION:DISPLAY
 END:VALARM
 END:VEVENT
