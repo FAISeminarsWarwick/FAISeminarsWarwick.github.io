@@ -12,7 +12,7 @@ description: Foundations of AI | Seminars | Warwick
 
 # Multi-objective optimization with societal considerations: a study of RCTs in the presence of competing treatments
 
-![Ana-Andreea Stoica ](/assets/img/ana-square-flipped.jpg){: .rounded-circle}
+![Ana-Andreea Stoica ](/assets/img/ana-square-flipped.jpg){: .img-fluid .rounded-circle .align-left width="300px"}
 
 ## Abstract
 
