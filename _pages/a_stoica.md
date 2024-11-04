@@ -1,6 +1,6 @@
 # Multi-objective optimization with societal considerations: a study of RCTs in the presence of competing treatments
 
-![Ana-Andreea Stoica ](/assets/img/ana-square-flipped.jpg){: .rounded-circle}
+![Ana-Andreea Stoica ](/assets/img/ana-square-flipped.jpg){: .img-fluid .rounded-circle .align-left width="300px"}
 
 **Speaker:** Ana-Andreea Stoica (Tübingen, Baden-Württemberg, Germany)
 **Date:** 12-11-2024, 2pm-3pm (BST)
