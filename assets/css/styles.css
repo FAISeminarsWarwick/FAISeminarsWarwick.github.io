@@ -65,6 +65,7 @@
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .speaker-details .position {
@@ -433,6 +434,12 @@
 .sidebar a:hover {
   color: #007bff;
   /* Blue highlight on link hover */
+}
+
+img.rounded-circle {
+  width: 200px;
+  float: left;
+  margin-right: 15px;
 }
 
 /* ... other existing styles ... */

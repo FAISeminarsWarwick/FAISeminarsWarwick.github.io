@@ -1,18 +1,14 @@
 ---
-layout: speaker
-permalink: /speakers/a-stoica
-title: Ana-Andreea Stoica
-position: Research Group Leader in the Social Foundations of Computation Department, Max Planck Institute, Germany
-description: Foundations of AI | Seminars | Warwick
+layout: page
 ---
+
+# Multi-objective optimization with societal considerations: a study of RCTs in the presence of competing treatments
+
+![Ana-Andreea Stoica ]{: .rounded-circle}
 
 **Speaker:** Ana-Andreea Stoica (Tübingen, Baden-Württemberg, Germany)
 **Date:** 12-11-2024, 2pm-3pm (BST)
 **Location:** Zeeman building, MS.03, University of Warwick, Coventry, UK
-
-# Multi-objective optimization with societal considerations: a study of RCTs in the presence of competing treatments
-
-![Ana-Andreea Stoica ](/assets/img/ana-square-flipped.jpg){: .rounded-circle}
 
 ## Abstract
 

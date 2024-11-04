@@ -12,7 +12,7 @@ description: Foundations of AI | Seminars | Warwick
 
 # TBD
 
-![Marco Mondelli](/assets/img/m_mondelli.jpg){: .img-fluid .rounded-circle .align-left width="300px"}
+![Marco Mondelli](/assets/img/m_mondelli.jpg){: .rounded-circle}
 
 ## Abstract
 

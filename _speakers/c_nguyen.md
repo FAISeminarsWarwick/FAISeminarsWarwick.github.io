@@ -12,7 +12,7 @@ description: Foundations of AI | Seminars | Warwick
 
 # TBD
 
-![Dr. Cuong V. Nguyen](/assets/img/c_nguyen.jpg){: .img-fluid .rounded-circle .align-left}
+![Dr. Cuong V. Nguyen](/assets/img/c_nguyen.jpg){: .rounded-circle}
 
 ## Abstract
 
