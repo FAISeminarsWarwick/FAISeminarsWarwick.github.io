@@ -6,10 +6,6 @@ position: Research Scientist, Google DeepMind, UK
 description: Foundations of AI | Seminars | Warwick
 ---
 
-**Speaker:** Razvan Pascanu (DeepMind, UK)
-**Date:** 26-11-2024, 2pm-3pm (BST)
-**Location:** Computer Science building, CS1.04, University of Warwick, Coventry, UK
-
 # Resurrecting Recurrent Neural Networks
 
 ![Razvan Pascanu ](/assets/img/razvan-pascanu.jpg){: .img-fluid .rounded-circle .align-left width="300px"}
