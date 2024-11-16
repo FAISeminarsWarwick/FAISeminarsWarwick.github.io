@@ -1,3 +1,11 @@
+---
+layout: speaker
+permalink: /speakers/i-kuzborskij
+title: Ilja Kuzborskij
+position: Research Scientist, Google DeepMind, UK
+description: Foundations of AI | Seminars | Warwick
+---
+
 # TBD
 
 **Speaker:** Ilja Kuzborskij (Research Scientist, Google DeepMind, UK)
