@@ -11,6 +11,6 @@ calendar_icon: "/assets/img/calendar_icon.png"
 location_icon: "/assets/img/location_icon.png"
 speaker_icon: "/assets/img/i_kuzborskij.jpg"
 link: "https://faiseminarswarwick.github.io"
-speaker_file: i_kuzborskij
+speaker_file: i-kuzborskij
 ---
 
