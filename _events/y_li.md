@@ -11,6 +11,6 @@ calendar_icon: "/assets/img/calendar_icon.png"
 location_icon: "/assets/img/location_icon.png"
 speaker_icon: "/assets/img/y_li.jpg"
 link: "https://faiseminarswarwick.github.io"
-speaker_file: y_li
+speaker_file: y-li
 ---
 
