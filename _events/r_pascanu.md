@@ -9,7 +9,7 @@ speaker_position: " Researcg Scientist, Google DeepMind, UK"
 location: "Computer Science building, CS1.04,  University of Warwick, Coventry, UK"
 calendar_icon: "/assets/img/calendar_icon.png"
 location_icon: "/assets/img/location_icon.png"
-speaker_icon: "assets/img/r_pascanu.jpg"
+speaker_icon: "assets/img/razvan-pascanu.jpg"
 link: "https://faiseminarswarwick.github.io"
 speaker_file: r-pascanu
 ---
