@@ -1,12 +1,10 @@
 # Resurrecting Recurrent Neural Networks
 
-![Razvan Pascanu ](/assets/img/razvan-pascanu.jpg){: .img-fluid .rounded-circle .align-left width="300px"}
-
-**Speaker:** Razvan Pascanu (DeepMind, UK)
+**Speaker:** Razvan Pascanu (Google DeepMind, UK)
 **Date:** 26-11-2024, 2pm-3pm (BST)
 **Location:** Computer Science building, CS1.04, University of Warwick, Coventry, UK
 
-
+![Razvan Pascanu ](/assets/img/razvan-pascanu.jpg){: .img-fluid .rounded-circle .align-left width="300px"}
 
 ## Abstract
 
