@@ -12,7 +12,7 @@ description: Foundations of AI | Seminars | Warwick
 
 # TBD
 
-![Dr. Antonio Vergari](/assets/img/kr_mu.jpg){: .img-fluid .rounded-circle .align-left}
+![Dr. Antonio Vergari](/assets/img/vergari.jpg){: .img-fluid .rounded-circle .align-left}
 
 ## Abstract
 
