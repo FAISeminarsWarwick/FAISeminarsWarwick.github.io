@@ -2,7 +2,7 @@
 layout: speaker
 permalink: /speakers/a-vergari
 title: Dr. Antonio Vergari
-position: Reader (Associatte Perofessor), University of Edinburgh 
+position: Reader (Associate Professor), University of Edinburgh 
 description: Foundations of AI | Seminars | Warwick
 ---
 
