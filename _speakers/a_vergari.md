@@ -20,6 +20,6 @@ TBD
 
 ---
 
-### About [Dr. Antonio Vergari](https://nolovedeeplearning.com)
+### About [Dr. Antonio Vergari](http://nolovedeeplearning.com)
 
 TBD
