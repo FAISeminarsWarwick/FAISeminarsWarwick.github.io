@@ -11,7 +11,7 @@ description: Foundations of AI | Seminars | Warwick
 ![Bruno Loureiro](/assets/img/loureiro.png){: .img-fluid .rounded-circle .align-left width="300px"}
 
 **Speaker:** Bruno Loureiro (CNRS Researcher, ENS, France)
-**Date:** 2pm, March 11th, 2026
+**Date:** 2pm, March 11th, 2025
 **Location:** CS1.04, University of Warwick, Coventry, UK
 
 [Download iCalendar File](/assets/ics/event.ics)
