@@ -1,11 +1,3 @@
----
-layout: speaker
-permalink: /speakers/j-bose
-title: Joye Bose
-position: Post-Doctoral Fellow, University of Oxford
-description: Foundations of AI | Seminars | Warwick
----
-
 **Speaker:** Joye Bose (University of Oxford, UK)
 **Date:** 13-02-2025, 2pm-3pm (BST)
 **Location:** Mathematical Sciences Building, MB0.01, University of Warwick, Coventry, UK
