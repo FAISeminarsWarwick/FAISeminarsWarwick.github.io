@@ -1,5 +1,5 @@
 **Speaker:** Joey Bose (University of Oxford, UK)
-**Date:** 13-02-2025, 2pm-3pm (BST)
+**Date:** 13-02-2025, 2pm-3pm (GMT)
 **Location:** Mathematical Sciences Building, MB0.01, University of Warwick, Coventry, UK
 
 # Theoretical Foundations Of Self Consuming Generative Models
