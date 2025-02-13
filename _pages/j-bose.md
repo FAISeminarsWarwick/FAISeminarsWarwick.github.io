@@ -1,10 +1,10 @@
-**Speaker:** Joye Bose (University of Oxford, UK)
+**Speaker:** Joey Bose (University of Oxford, UK)
 **Date:** 13-02-2025, 2pm-3pm (BST)
 **Location:** Mathematical Sciences Building, MB0.01, University of Warwick, Coventry, UK
 
 # Theoretical Foundations Of Self Consuming Generative Models
 
-![Joye Bose](/assets/img/bose.jpg){: .img-fluid .rounded-circle .align-left}
+![Joey Bose](/assets/img/bose.jpg){: .img-fluid .rounded-circle .align-left}
 
 ## Abstract
 
@@ -12,7 +12,7 @@ The rapid progress in generative models has resulted in impressive leaps in gene
 
 ---
 
-### About [Joye Bose](https://joeybose.github.io)
+### About [Joey Bose](https://joeybose.github.io)
 
 Joey Bose is a Post-Doctoral Fellow at University of Oxford working with Michael Bronstein and an Affiliate member of Mila. He completed his PhD at McGill/Mila under the supervision of Will Hamilton, Gauthier Gidel, and Prakash Panagaden. His research interests span Generative Modelling, Differential Geometry for Machine Learning with a current emphasis on geometric generative models for scientific applications. Previously, he completed his Bachelors and Master’s degrees from the University of Toronto working on adversarial attacks against face detection and is the President and CEO of FaceShield Inc an educational platform for digital privacy for facial data. His work has been featured in Forbes, New York Times, CBC, VentureBeat and other media outlets and was generously supported by the IVADO PhD Fellowship, and NSERC Post-doc Fellowship.
 
