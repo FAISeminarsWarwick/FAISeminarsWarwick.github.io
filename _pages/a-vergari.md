@@ -1,5 +1,5 @@
 **Speaker:** Dr. Antonio Vergari
-**Date:** 18-02-2025 2pm-3pm (BST)
+**Date:** 18-02-2025 2pm-3pm (GMT)
 **Location:** Mathematical Sciences Building, MB0.08, University of Warwick, Coventry, UK
 
 # Subtractive Mixture Models: Representation, Learning and Inference
