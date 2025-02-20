@@ -1,5 +1,5 @@
 **Speaker:** Cuong V. Nguyen (Durham University, UK)
-**Date:** 25-02-2025, 2pm-3pm (BST)
+**Date:** 25-02-2025, 2pm-3pm (GMT)
 **Location:** Department of Computer Science, CS1.01, University of Warwick, Coventry, UK
 
 # Optimal Tuning of Hamiltonian Monte Carlo on ReLU-based Neural Networks
