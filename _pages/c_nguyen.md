@@ -4,7 +4,7 @@
 
 # Optimal Tuning of Hamiltonian Monte Carlo on ReLU-based Neural Networks
 
-![Joye Bose](/assets/img/c_nguyen.png){: .img-fluid .rounded-circle .align-left}
+![Joye Bose](/assets/img/c_nguyen.jpg){: .img-fluid .rounded-circle .align-left}
 
 ## Abstract
 
