@@ -6,7 +6,7 @@ position: Research Scientist, Google DeepMind, UK
 description: Foundations of AI | Seminars | Warwick
 ---
 
-# TBD
+# Quantifying and Estimating Epistemic Uncertainty in LLMs through Iterative Prompting
 
 
 ## Abstract
