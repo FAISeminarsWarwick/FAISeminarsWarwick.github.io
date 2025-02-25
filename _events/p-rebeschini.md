@@ -6,7 +6,7 @@ end_time: 25-03-2025 15:00:00 -0000
 time: 14:00PM
 speaker: "Patrick Rebeschini"
 speaker_position: "Professor of Statistics and Machine Learning, University of Oxford, UK"
-location: "Department of Computer Science, CS1.01, University of Warwick, Coventry, UK"
+location: "Mathematical Science Building, MB0.01, University of Warwick, Coventry, UK"
 calendar_icon: "/assets/img/calendar_icon.png"
 location_icon: "/assets/img/location_icon.png"
 speaker_icon: "/assets/img/p-rebeschini.jpg"
