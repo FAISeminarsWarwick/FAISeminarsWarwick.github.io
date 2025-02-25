@@ -6,7 +6,7 @@ position:  University of Genoa, MIT
 description: Foundations of AI | Seminars | Warwick
 ---
 
-# TBD
+# Beyond the curse of dimensionality with hyper-kernel ridge regression
 
 ![Lorenzo Rosasco](/assets/img/lorenzo.jpg){: .img-fluid .rounded-circle .align-left width="300px"}
 
