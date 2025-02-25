@@ -1,6 +1,6 @@
 ---
 layout: speaker
-permalink: /speakers/b-loureiro
+permalink: /speakers/lorenzo
 title: Lorenzo Rosasco
 position:  University of Genoa, MIT
 description: Foundations of AI | Seminars | Warwick
@@ -10,7 +10,7 @@ description: Foundations of AI | Seminars | Warwick
 
 ![Lorenzo Rosasco](/assets/img/lorenzo.jpg){: .img-fluid .rounded-circle .align-left width="300px"}
 
-**Speaker:** Lorenzo Rosasco (Professor, University of Genova)
+**Speaker:** Lorenzo Rosasco (Professor, University of Genoa)
 **Date:** 2pm, March 3rd, 2025
 **Location:** Zeeman A1.01, University of Warwick, Coventry, UK
 
