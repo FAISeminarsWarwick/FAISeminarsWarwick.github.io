@@ -1,8 +1,8 @@
 ---
 layout: default # this would be the name of the layout file you'd create for events
 title: "Generalization for Diffusion Models: An Algorithmic-Dependent Framework Based on Stability"
-date: 25-03-2025 14:00:00 -0000
-end_time: 25-03-2025 15:00:00 -0000
+date: 06-05-2025 14:00:00 -0000
+end_time: 06-05-2025 15:00:00 -0000
 time: 14:00PM
 speaker: "Patrick Rebeschini"
 speaker_position: "Professor of Statistics and Machine Learning, University of Oxford, UK"
