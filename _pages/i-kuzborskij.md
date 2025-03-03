@@ -1,4 +1,4 @@
-# TBD
+# Quantifying and Estimating Epistemic Uncertainty in LLMs through Iterative Prompting
 
 **Speaker:** Ilja Kuzborskij (Research Scientist, Google DeepMind, UK)
 **Date:** 04-03-2025, 2pm-3pm (BST)
