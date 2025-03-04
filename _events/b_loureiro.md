@@ -2,7 +2,7 @@
 layout: default # this would be the name of the layout file you'd create for events
 title: "Feature Learning and computational limitations in learning with multi-index models"
 date: 11-03-2025 14:00:00 -0000
-end_time: 1-03-2025 15:00:00 -0000
+end_time: 11-03-2025 15:00:00 -0000
 time: 14:00PM
 speaker: "Dr. Bruno Loureiro"
 speaker_position: "ENS/CNRS"
