@@ -1,8 +1,8 @@
 ---
 layout: default # this would be the name of the layout file you'd create for events
 title: "TBD"
-date: 13-05-2025 14:00:00 -0000
-end_time: 13-05-2025 15:00:00 -0000
+date: 17-06-2025 14:00:00 -0000
+end_time: 17-06-2025 15:00:00 -0000
 time: 14:00PM
 speaker: "Dr. Krikamol Muandet"
 speaker_position: "Chief scientist and Tenure-track Faculty (fast track) at CISPA"

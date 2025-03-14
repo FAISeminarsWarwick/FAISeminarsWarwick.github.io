@@ -8,7 +8,7 @@ description: Foundations of AI | Seminars | Warwick
 
 **Speaker:** Dr. Krikamol Muandet
 **Date:** 17-06-2025 2pm-3pm (BST)
-**Location:** Mathematical Sciences Building, MB0.08, University of Warwick, Coventry, UK
+**Location:** Humanities Building, H0.02, University of Warwick, Coventry, UK
 
 # TBD
 
