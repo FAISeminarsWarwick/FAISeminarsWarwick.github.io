@@ -9,7 +9,7 @@ speaker_position: "Professor of Statistics and Machine Learning, University of O
 location: "Mathematical Science Building, MB0.01, University of Warwick, Coventry, UK"
 calendar_icon: "/assets/img/calendar_icon.png"
 location_icon: "/assets/img/location_icon.png"
-speaker_icon: "/assets/img/p-rebeschini.jpg"
+speaker_icon: "/assets/img/patrick_r.jpg"
 link: "https://faiseminarswarwick.github.io"
 speaker_file: p-rebeschini
 ---

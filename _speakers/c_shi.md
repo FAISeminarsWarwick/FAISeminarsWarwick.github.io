@@ -6,13 +6,13 @@ position: Chief Scientist and Tenure-track Faculty (fast track) at CISPA
 description: Foundations of AI | Seminars | Warwick
 ---
 
-**Speaker:** Dr. Krikamol Muandet
-**Date:** 17-06-2025 2pm-3pm (BST)
+**Speaker:** Dr. Chengchun Chi
+**Date:** 20-05-2025 2pm-3pm (BST)
 **Location:** Mathematical Science Building, MB0.08, University of Warwick, Coventry, UK
 
 # TBD
 
-![Dr. Krikamol Muandet](/assets/img/kr_mu.jpg){: .img-fluid .rounded-circle .align-left}
+![Dr. Chengchun Shi](/assets/img/c_shi.jpg){: .img-fluid .rounded-circle .align-left}
 
 ## Abstract
 
@@ -20,6 +20,6 @@ TBD
 
 ---
 
-### About [Dr. Krikamol Muandet](https://www.krikamol.org)
+### About [Dr. Chengchun Shi](https://callmespring.github.io/)
 
 TBD
