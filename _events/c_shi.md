@@ -1,6 +1,6 @@
 ---
 layout: default # this would be the name of the layout file you'd create for events
-title: "TBD"
+title: Robust Reinforcement Learning from Human Feedback for Large Language Models Fine-Tuning
 date: 20-05-2025 14:00:00 -0000
 end_time: 20-05-2025 15:00:00 -0000
 time: 14:00PM
