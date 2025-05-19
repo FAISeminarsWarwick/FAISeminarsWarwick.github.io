@@ -22,5 +22,6 @@ As large language models (LLMs) gain popularity in conducting prediction tasks i
 
 ### About [Yingzhen Li](http://yingzhenli.net/home/en/)
 
-TBD
+Dr. Yingzhen Li is currently a Senior Lecturer in machine learning at the Department of Computing at Imperial College London. She is passionate about building reliable machine learning systems that can generalise to unseen environment, and her approach combines both Bayesian statistics and deep learning.
+Her research interests are two-fold and I use probabilistic ML methods to develop them: 1. Trustworthy ML models: uncertainty quantification, robustness, explainable ML, decision-making, adaptive methods (e.g., continual learning, model editing), etc. 2. Generative modelling: sequential generative models on both sequence and static data (e.g., video, spatiotemporal data, general time-series, images, tabular data, etc.), and causal representation learning with generative models. She has worked (and continue to work) extensively on approximate inference with applications to Bayesian deep learning and deep generative models. Her work on this subject has been applied in industrial systems and implemented in deep learning frameworks (e.g. Tensorflow Probability and Pyro).  Before joining Imperial, she was a senior researcher at Microsoft Research Cambridge, and previously she has interned at Disney Research. She received her PhD in engineering from the University of Cambridge, UK.
 
