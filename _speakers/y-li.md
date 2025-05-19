@@ -6,17 +6,17 @@ position: Professor of Statistics and Machine Learning, University of Oxford, UK
 description: Foundations of AI | Seminars | Warwick
 ---
 
-# TBD
+# Variational Uncertainty Decomposition for In-Context Learning
 
 **Speaker:** Yingzhen Li (Senior Lecturer, Imperial College, UK)
-**Date:** 25-03-2025, 2pm-3pm (BST)
-**Location:** Department of Computer Science, CS1.04, University of Warwick, Coventry, UK
+**Date:** 27-05-2025, 2pm-3pm (BST)
+**Location:** Mathematical Sciences Building (MB0.08), University of Warwick, Coventry, UK
 
 ![Yingzhen Li](/assets/img/y_li.jpg){: .img-fluid .rounded-circle .align-left}
 
 ## Abstract
 
-TBD
+As large language models (LLMs) gain popularity in conducting prediction tasks in-context, understanding the sources of uncertainty in in-context learning becomes essential to ensuring reliability. The recent hypothesis of in-context learning performing predictive Bayesian inference opens the avenue for Bayesian uncertainty estimation, particularly for decomposing uncertainty into epistemic uncertainty due to lack of in-context data and aleatoric uncertainty inherent in the in-context prediction task. However, the decomposition idea remains under-explored due to the intractability of the latent parameter posterior from the underlying Bayesian model. In this work, we introduce a variational uncertainty decomposition framework for in-context learning without explicitly sampling from the latent parameter posterior, by optimising auxiliary inputs as probes to obtain an upper bound to the aleatoric uncertainty of an LLM's in-context learning procedure. Through experiments on synthetic and real-world tasks, we show quantitatively and qualitatively that the decomposed uncertainties obtained from our method exhibit desirable properties of epistemic and aleatoric uncertainty.
 
 ---
 
