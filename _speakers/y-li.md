@@ -2,7 +2,7 @@
 layout: speaker
 permalink: /speakers/y-li
 title: Yingzhen Li
-position: Professor of Statistics and Machine Learning, University of Oxford, UK
+position: Professor of Statistics and Machine Learning, Imperial College, UK
 description: Foundations of AI | Seminars | Warwick
 ---
 
