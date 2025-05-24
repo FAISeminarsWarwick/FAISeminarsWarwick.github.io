@@ -5,7 +5,7 @@ date: 03-06-2025 14:00:00 -0000
 end_time: 03-06-2025 15:00:00 -0000
 time: 14:00PM
 speaker: "Marco Mondelli"
-speaker_position: "Assistant Professor, Institute of Science and Technology,  Austria"
+speaker_position: "Professor, Institute of Science and Technology,  Austria"
 location: "Mathematical Science Building, MB0.07, University of Warwick, Coventry, UK"
 calendar_icon: "/assets/img/calendar_icon.png"
 location_icon: "/assets/img/location_icon.png"
