@@ -2,7 +2,7 @@
 
 **Speaker:** Dr. Krikamol Muandet
 **Date:** 17-06-2025 2pm-3pm (BST)
-**Location:** Mathematical Science Building, MB0.08, University of Warwick, Coventry, UK
+**Location:** Department of Computer Science, CS1.01, University of Warwick, Coventry, UK
 
 
 ![Dr. Krikamol Muandet](/assets/img/kr_mu.jpg){: .img-fluid .rounded-circle .align-left}
