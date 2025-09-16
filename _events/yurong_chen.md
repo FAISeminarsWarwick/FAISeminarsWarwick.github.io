@@ -1,6 +1,6 @@
 ---
 layout: default # this would be the name of the layout file you'd create for events
-title: "Learning with Nonlinear Expectations"
+title: "Learning a Stackelberg Leader's Incentives from Optimal Commitments"
 date: 23-09-2025 14:00:00 -0000
 end_time: 23-09-2025 15:00:00 -0000
 time: 14:00PM

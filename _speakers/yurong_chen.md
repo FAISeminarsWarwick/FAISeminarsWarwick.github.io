@@ -12,7 +12,7 @@ description: Foundations of AI | Seminars | Warwick
 
 # Learning a Stackelberg Leader's Incentives from Optimal Commitments
 
-![Dr. Krikamol Muandet](/assets/img/yurong_chen.jpeg){: .img-fluid .rounded-circle .align-left}
+![Dr. Yurong Chen](/assets/img/yurong_chen.jpeg){: .img-fluid .rounded-circle .align-left}
 
 ## Abstract
 
