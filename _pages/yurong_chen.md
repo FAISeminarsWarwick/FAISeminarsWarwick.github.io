@@ -1,8 +1,8 @@
 # Learning with Nonlinear Expectations
 
 **Speaker:** Dr. Yurong Chen
-**Date:** 22-09-2025 2pm-3pm (BST)
-**Location:** University of Warwick, Coventry, UK
+**Date:** 23-09-2025 2pm-3pm (BST)
+**Location:** Department of Computer Science CS1.04, University of Warwick, Coventry, UK
 
 
 ![Dr. Yurong Chen](/assets/img/yurong_chen.jpeg){: .img-fluid .rounded-circle .align-left}
