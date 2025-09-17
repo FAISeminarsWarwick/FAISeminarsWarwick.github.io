@@ -1,4 +1,4 @@
-# Learning with Nonlinear Expectations
+# Learning a Stackelberg Leader's Incentives from Optimal Commitments
 
 **Speaker:** Dr. Yurong Chen
 **Date:** 23-09-2025 2pm-3pm (BST)
