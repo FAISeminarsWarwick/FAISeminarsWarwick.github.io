@@ -9,7 +9,7 @@ speaker_position: "Assistant professor at EPFL"
 location: "University of Warwick, Coventry, UK"
 calendar_icon: "/assets/img/calendar_icon.png"
 location_icon: "/assets/img/location_icon.png"
-speaker_icon: "/assets/img/Lenaic.jpg"
+speaker_icon: "/assets/img/lenaic.jpg"
 link: "https://faiseminarswarwick.github.io"
 speaker_file: Lenaic
 ---
