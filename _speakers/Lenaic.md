@@ -6,9 +6,9 @@ position: Assistant professor at EPFL
 description: Foundations of AI | Seminars | Warwick
 ---
 
-**Speaker:** Prof. Lénaïc Chizat
-**Date:** 25-11-2025 2pm-3pm (BST)
-**Location:** MB2.22, University of Warwick, Coventry, UK
+**Speaker:** Prof. Lénaïc Chiat
+**Date:** 26-11-2025 11am-12noon (BST)
+**Location:** CS1.01, University of Warwick, Coventry, UK
 
 # TBD
 
