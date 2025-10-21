@@ -4,7 +4,7 @@ title: "Imprecise Probabilistic Machine Learning -- Being Precise about Imprecis
 date: 05-11-2025 11:00:00 -0000
 end_time: 05-11-2025 12:00:00 -0000
 time: 11:00AM
-speaker: "Prof. Michele Caprio"
+speaker: "Dr. Michele Caprio"
 speaker_position: "Lecturer (Assistant Professor) at The University of Manchester"
 location: "Department of Computer Science CS1.01, University of Warwick, Coventry, UK"
 calendar_icon: "/assets/img/calendar_icon.png"
