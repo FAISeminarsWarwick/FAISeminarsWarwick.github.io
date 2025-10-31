@@ -7,8 +7,8 @@ description: Foundations of AI | Seminars | Warwick
 ---
 
 **Speaker:** Prof. Lénaïc Chiat
-**Date:** 26-11-2025 11am-12noon (BST)
-**Location:** CS1.01, University of Warwick, Coventry, UK
+**Date:** To be announced around June 2026
+**Location:** University of Warwick, Coventry, UK
 
 # TBD
 
