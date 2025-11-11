@@ -1,9 +1,10 @@
 ---
 layout: default # this would be the name of the layout file you'd create for events
 title: "TBD"
-date: "TBD"
-end_time: "TBD"
-time: "TBD"
+date: 05-06-2026 11:00:00 -0000
+end_time: 05-06-2026 12:00:00 -0000
+time: 11:00AM
+date_tbd: true
 speaker: "Prof. Lénaïc Chizat"
 speaker_position: "Assistant professor at EPFL"
 location: "University of Warwick, Coventry, UK"
