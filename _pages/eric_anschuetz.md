@@ -1,4 +1,4 @@
-# Imprecise Probabilistic Machine Learning -- Being Precise about Imprecision
+# What Goes Wrong in Quantum Machine Learning (and How to Make it Right)
 
 **Speaker:** Dr. Eric Anschuetz
 **Date:** 22-01-2026 11am-12pm (BST)
