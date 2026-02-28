@@ -1,3 +1,12 @@
+---
+layout: speaker
+permalink: /speakers/figueiredo
+title: Mário Figueiredo
+position: Distinguished Professor, Instituto Superior Técnico, Portugal
+description: Foundations of AI | Seminars | Warwick
+---
+
+
 # Fenchel-Young Generalization of Bayesian Principles
 
 ![Mário Figueiredo](/assets/img/figueiredo.jpeg){: .img-fluid .rounded-circle .align-left}
