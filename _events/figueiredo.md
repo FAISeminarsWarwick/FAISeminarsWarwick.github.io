@@ -3,7 +3,7 @@ layout: default # this would be the name of the layout file you'd create for eve
 title: "Fenchel-Young Generalization of Bayesian Principles"
 date: 08-04-2026 11:00:00 -0000
 end_time: 11-02-2026 12:00:00 -0000
-time: 11:00AM
+time: 2:00PM
 speaker: "Prof. Mario Figueiredo"
 speaker_position: "Distinguished Professor and Feedzai Professor of Machine Learning, Instituto Superior Técnico, University of Lisbon "
 location: "Department of Computer Science CS1.01, University of Warwick, Coventry, UK"
