@@ -13,8 +13,8 @@ description: Foundations of AI | Seminars | Warwick
 
 **Speaker:** Mário Figueiredo, Instituto Superior Técnico (IST),
 University of Lisbon
-**Date:** 08-04-2026, 11am-12pm 
-**Location:** CS1.04, University of Warwick, Coventry, UK
+**Date:** 08-04-2026, 2pm-3pm 
+**Location:** CS1.01, University of Warwick, Coventry, UK
 
 [Download iCalendar File](/assets/ics/event.ics)
 
