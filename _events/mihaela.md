@@ -9,7 +9,7 @@ speaker_position: " John Humphrey Plummer Professor of Machine Learning, Artific
 location: "Department of Computer Science, University of Warwick, Coventry, UK"
 calendar_icon: "/assets/img/calendar_icon.png"
 location_icon: "/assets/img/location_icon.png"
-speaker_icon: "/assets/img/mihalea.jpeg"
+speaker_icon: "/assets/img/mihalea.png"
 link: "https://faiseminarswarwick.github.io"
 speaker_file: mihaela
 ---
